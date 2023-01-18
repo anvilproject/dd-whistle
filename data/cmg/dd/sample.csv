@@ -1,0 +1,7 @@
+variable_name,description,variable_type,enumerated_values
+subject_id,Subject/Participant Identifier within project ,string,
+sample_id,Identifier for sample,string,
+dbgap_sample_id,Sample identifier used in dbGaP (if previously submitted),string,
+sequencing_center (formerly sample_provider),Site of sequencing,string,UW;Yale;BH;Broad
+sample_source,Tissue type of sample,string,UBERON:0003714;UBERON:0001836;UBERON:0001003;UBERON:0002385;UBERON:0000178;UBERON:0002371;UBERON:0006956
+tissue_affected_status,"If applicable to disease, is the tissue from an affected source or an unaffected source?",string,Yes;No

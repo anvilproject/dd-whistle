@@ -1,0 +1,28 @@
+variable_name,description,variable_type,enumerated_values
+subject_id,Subject/Participant Identifier within project ,string,
+prior_testing,Text description of any genetic testing for individual conducted prior to enrollment,string,
+project_id,Information field about cohort. Suggested use case is for the identification of a set of subjects from a specific data provider in order to identify this subset within searches (and for manuscript referencing),string,
+pmid_id,Case specific PubMed ID if applicable,integer,
+dbgap_submission,Flag if sample has been submitted to dbGaP,string,Yes;No
+dbgap_study_id,PHS ID for study,string,
+dbgap_subject_id,Subject identifier used in dbGaP (if previously submitted),string,
+multiple_datasets,Flag if an individual has data represented in multiple data types (Ex: Yes if both exome and genome data is available for an individual),string,Yes;No
+family_id,CMG-designated Identifier for family,string,
+paternal_id,subject_id for father,string,
+maternal_id,subject_id for mother,string,
+twin_id,"subject_id for twins, triplets, etc",string,
+proband_relationship,"Text description of individual relationship to proband in family, especially useful to capture relationships when connecting distant relatives and connecting relatives not studied ",string,Aunt;Brother;Brother in law;Child;Cousin;Distant maternal cousin;Father;Female Child or Daughter;Female first cousin;FIrst cousin;First cousin once removed;First cousin twice removed;Half brother;Monozygotic twin sister;Male Child;Grandchild;Great aunt;Half first cousin;Half nephew;Half sibling;Half Sister;Maternal aunt;Maternal cousin;Maternal female cousin;Maternal grandfather;Maternal grandmother;Maternal great uncle;Maternal half brother;Maternal half sister;Maternal male cousin;Maternal uncle;Monozygotic twin brother;Mother;Nephew;Niece;Niece in law;Paternal second cousin;Paternal aunt;Paternal cousin;Paternal female cousin;Paternal first cousin once removed;Paternal grandfather;Paternal grandmother;Paternal great grandmother;Paternal half brother;Paternal male cousin;Paternal uncle;Proband;Second cousin;Second cousin once removed;Sibling;Sister;Uncle;Wife
+sex,Reported sex,string,Female;Male;Unknown;Intersex
+ancestry,Reported ancestry defined by NIH Racial and Ethnic Categories and Definitions (NOT-OD-15-089),string,American Indian or Alaskan Native;Asian;Black or African American;Hispanic or Latino;Native Hawaiian or Other Pacific Islander;White;Other;Unknown
+ancestry_detail,Additional specific ancestry description free text,string,
+age_at_last_observation,"Age at last observation. For conditions with later age of onset, this field lets users know if individuals marked as unaffected were younger or older than the age when the phenotype is expected to appear.",integer,
+phenotype_group,Optional submitter-defined field for samples that could be grouped together in a single analysis based on overlap in phenotypic features.,string,Defined by submitters (Will there be groupings across sites?)
+disease_id,"Concept code for disease (e.g. OMIM, Orphanet)",string,
+disease_description,Disease name or free text description of disease (especially if concept code not available),string,
+affected_status,Indicate affected status of individual,string,Affected;Unaffected;Possibly affected;Unknown
+congenital_status,Age of onset bucket range (if affected with non-congenital disorder),string,Unknown;Congenital onset ;Embryonal onset ;Fetal onset;Neonatal onset ;Infantile onset;Childhood onset;Juvenile onset;Adult onset ;Young adult onset;Middle age onset ;Late onset
+age_of_onset,Age of onset (if affected with non-congenital disorder),integer,
+hpo_present,HPO phenotype terms present ,string,
+hpo_absent,HPO phenotype terms absent,string,
+phenotype_description,Phenotype term or free text description for additional phenotype information,string,
+solve_state,Solved state of an individual,string,Unsolved;Tier 2;Tier 1

@@ -1,0 +1,18 @@
+variable_name,description,variable_type,enumerated_values
+subject_id,Subject/Participant Identifier within project ,string,
+sample_id,Identifier for sample,string,
+gene,Candidate Gene Name,string,
+gene_class,Indicate of the gene listed is a candidate or known,string,Known;Candidate
+inheritance_description,Text describing innheritance model,string,de novo;Autosomal recessive (homozygous);Autosomal recessive (compound heterozygous);Autosomal dominant;X-linked;Mitochondrial;Y-linked;Contiguous gene syndrome;Somatic mosaicism;Unknown/Other
+zygosity,Zygosity of variant,string,Heterozygous;Homozygous;Hemizygous
+variant_genome_build,The genome build for identifying the variant position,string,
+chrom,Chromosome of variant,number,
+pos,Start position of variant,number,
+ref,Reference allele of variant,number,
+alt,Alternate position of variant,string,
+hgvsc,HGVS c. description,string,
+hgvsp,HGVS p. description,string,
+transcript,Text description of transcript,string,
+sv_name,Text describing structural variant,string,
+sv_type,Structural variant type,string,"Deletion;Duplication;Multiallelic CNV;Insertion;Inversion,;Complex SVs;Other;Unknown"
+significance,Clinical significance of variant described,string,Benign;Likely benign;Uncertain significance;Suspected pathogenic;Likely pathogenic;Pathogenic

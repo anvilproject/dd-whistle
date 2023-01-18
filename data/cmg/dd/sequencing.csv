@@ -1,0 +1,13 @@
+variable_name,description,variable_type,enumerated_values
+sample_id,Identifier for sample,string,
+seq_filename,sequence file name without suffix,string,
+analyte_type,"Sequence data source (DNA, RNA, etc)",string,DNA;RNA
+sequencing_assay,Type of sequencing assay performed,string,WGS;WES;RNASeq;MEGA
+library_prep_kit_method,Library prep kit used,string,
+exome_capture_platform,Exome capture platform (if applicable),string,
+capture_region_bed_file,Capture region bed file (if applicable),string,
+reference_genome_build,Reference genome used,string,
+alignment_method,Alignment method used,string,
+data_processing_pipeline,Data processing pipeline used,string,
+functional_equivalence_standard,Is this a functional equivalence standard?,string,Yes;No
+date_data_generation,Date of data generation,string,

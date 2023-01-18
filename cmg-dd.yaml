@@ -1,0 +1,80 @@
+study_id: CMG_DD
+study_accession:  
+study_title: Center for Mendelian Genomics 
+study_desc: The Centers for Mendelian Genomics project uses next-generation sequencing and computational approaches to discover the genes and variants that underlie Mendelian conditions. By discovering genes that cause Mendelian conditions, we will expand our understanding of their biology to facilitate diagnosis and new treatments.
+url: http://mendelian.org/
+identifier_prefix: https://mendelian.org/fhir
+output_filename: cmg
+id_colname: subject_id
+whistle_src: _cmg.wstl
+study_sponsor:
+  id: nhgri
+  name: National Human Genome Research Institute (NHGRI)
+code_harmonization_dir: harmony/cmg
+require_official: True
+curies:
+  http://purl.obolibrary.org/obo/hp.owl: HP
+  http://purl.obolibrary.org/obo/mondo.owl: MONDO
+projector_lib: projector
+env:
+  local: dev
+  dev: dev
+  qa: google
+  prod: google
+dataset:
+  subject: 
+    filename: data/cmg/subject.csv
+    data_dictionary: 
+      filename:  data/cmg/dd/subject.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: variable_type
+        values: enumerated_values
+    code_harmonization: harmony/cmg/data-harmony.csv
+  sample: 
+    filename: data/cmg/sample.csv
+    data_dictionary: 
+      filename:  data/cmg/dd/sample.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: variable_type
+        values: enumerated_values
+    code_harmonization: harmony/cmg/data-harmony.csv
+  sequencing: 
+    filename: data/cmg/sequencing.csv
+    embed:
+      dataset: sample
+      colname: sample_id
+    data_dictionary: 
+      filename:  data/cmg/dd/sequencing.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: variable_type
+        values: enumerated_values
+    code_harmonization: harmony/cmg/data-harmony.csv
+  family:
+    filename: data/cmg/family.csv
+    data_dictionary: 
+      filename:  data/cmg/dd/family.csv
+      key_columns: family_id
+      colnames:
+        varname: variable_name
+        desc: description
+        type: variable_type
+        values: enumerated_values
+    code_harmonization: harmony/cmg/data-harmony.csv
+  discovery:
+    filename: data/cmg/discovery.csv
+    data_dictionary: 
+      filename:  data/cmg/dd/discovery.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: variable_type
+        values: enumerated_values
+    code_harmonization: harmony/cmg/data-harmony.csv
+active_tables:
+  ALL: true

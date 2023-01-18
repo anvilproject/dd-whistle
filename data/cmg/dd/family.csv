@@ -1,0 +1,8 @@
+variable_name,description,variable_type,enumerated_values
+family_id,CMG-designated Identifier for family,string,
+consanguinity,Indicate if consanguinity is present or suspected within a family,string,None suspected;Suspected;Present;Unknown
+consanguinity_detail,Free text description of any additional consanguinity details,string,
+pedigree_image,name of file,,
+pedigree_detail,Free text description of other family structure/pedigree image caption,string,
+family_history,Flag if there is a known family history for the phenotype (useful if only proband sequenced but extended family history suggestion mode of inheritance was reported),string,Yes;No
+family_onset,Information regarding age of onset for affected individuals in family if relevant for phenotype ,string,
