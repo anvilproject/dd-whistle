@@ -91,7 +91,7 @@ class Instrument:
             for var in self.variables:
                 var.write(writer)
 
-def parse_file(filename="data/original/cmg_07162020.csv", outdir="data/dd/"):
+def parse_file(filename="data/cmg/original/cmg_07162020.csv", outdir="data/cmg/dd/"):
     tables = {}
 
     destination = Path(outdir)
