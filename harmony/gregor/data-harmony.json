@@ -1,0 +1,1755 @@
+{
+  "id": "data-harmony",
+  "resourceType": "ConceptMap",
+  "version": "v1",
+  "group": [
+    {
+      "source": "Condition Interpretation",
+      "target": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "element": [
+        {
+          "code": "Observed",
+          "display": "Observed",
+          "target": [
+            {
+              "code": "confirmed",
+              "display": "Confirmed",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Condition Interpretation",
+      "target": "self",
+      "element": [
+        {
+          "code": "Observed",
+          "display": "Observed",
+          "target": [
+            {
+              "code": "Observed",
+              "display": "Observed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Not Observed",
+          "display": "Not Observed",
+          "target": [
+            {
+              "code": "Not Observed",
+              "display": "Not Observed",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Condition Source",
+      "target": "self",
+      "element": [
+        {
+          "code": "Clinical",
+          "display": "Clinical",
+          "target": [
+            {
+              "code": "Clinical",
+              "display": "Clinical",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Self-Reported",
+          "display": "Self-Reported",
+          "target": [
+            {
+              "code": "Self-Reported",
+              "display": "Self-Reported",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Family Type",
+      "target": "self",
+      "element": [
+        {
+          "code": "Proband-only",
+          "display": "Proband-only",
+          "target": [
+            {
+              "code": "Proband-only",
+              "display": "Proband-only",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Trio",
+          "display": "Trio",
+          "target": [
+            {
+              "code": "Trio",
+              "display": "Trio",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Trio+",
+          "display": "Trio+",
+          "target": [
+            {
+              "code": "Trio+",
+              "display": "Trio+",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Duo",
+          "display": "Duo",
+          "target": [
+            {
+              "code": "Duo",
+              "display": "Duo",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sex",
+      "target": "http://hl7.org/fhir/administrative-gender",
+      "element": [
+        {
+          "code": "Male",
+          "display": "Male",
+          "target": [
+            {
+              "code": "male",
+              "display": "Male",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Female",
+          "display": "Female",
+          "target": [
+            {
+              "code": "female",
+              "display": "Female",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sex",
+      "target": "self",
+      "element": [
+        {
+          "code": "Male",
+          "display": "Male",
+          "target": [
+            {
+              "code": "Male",
+              "display": "Male",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Female",
+          "display": "Female",
+          "target": [
+            {
+              "code": "Female",
+              "display": "Female",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Race",
+      "target": "urn:oid:2.16.840.1.113883.6.238",
+      "element": [
+        {
+          "code": "White",
+          "display": "White",
+          "target": [
+            {
+              "code": "2028-9",
+              "display": "White",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Black or African American",
+          "display": "Black or African American",
+          "target": [
+            {
+              "code": "2054-5",
+              "display": "Black or African American",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Asian",
+          "display": "Asian",
+          "target": [
+            {
+              "code": "2028-9",
+              "display": "Asian",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "American Indian or Alaska Native",
+          "display": "American Indian or Alaska Native",
+          "target": [
+            {
+              "code": "1002-5",
+              "display": "American Indian or Alaska Native",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Native Hawaiian or Other Pacific Islander",
+          "display": "Native Hawaiian or Other Pacific Islander",
+          "target": [
+            {
+              "code": "2076-8",
+              "display": "Native Hawaiian or Other Pacific Islander",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Race",
+      "target": "self",
+      "element": [
+        {
+          "code": "White",
+          "display": "White",
+          "target": [
+            {
+              "code": "White",
+              "display": "White",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Black or African American",
+          "display": "Black or African American",
+          "target": [
+            {
+              "code": "Black or African American",
+              "display": "Black or African American",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Asian",
+          "display": "Asian",
+          "target": [
+            {
+              "code": "Asian",
+              "display": "Asian",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "More than one race",
+          "display": "More than one race",
+          "target": [
+            {
+              "code": "More than one race",
+              "display": "More than one race",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "American Indian or Alaska Native",
+          "display": "American Indian or Alaska Native",
+          "target": [
+            {
+              "code": "American Indian or Alaska Native",
+              "display": "American Indian or Alaska Native",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Native Hawaiian or Other Pacific Islander",
+          "display": "Native Hawaiian or Other Pacific Islander",
+          "target": [
+            {
+              "code": "Native Hawaiian or Other Pacific Islander",
+              "display": "Native Hawaiian or Other Pacific Islander",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Prefer not to answer",
+          "display": "Prefer not to answer",
+          "target": [
+            {
+              "code": "Prefer not to answer",
+              "display": "Prefer not to answer",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Race",
+      "target": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "element": [
+        {
+          "code": "More than one race",
+          "display": "More than one race",
+          "target": [
+            {
+              "code": "UNK",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "OTH",
+              "display": "other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Prefer not to answer",
+          "display": "Prefer not to answer",
+          "target": [
+            {
+              "code": "ASKU",
+              "display": "asked but unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "UNK",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Ethnicity",
+      "target": "urn:oid:2.16.840.1.113883.6.238",
+      "element": [
+        {
+          "code": "Not Hispanic or Latino",
+          "display": "Not Hispanic or Latino",
+          "target": [
+            {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Hispanic or Latino",
+          "display": "Hispanic or Latino",
+          "target": [
+            {
+              "code": "2135-2",
+              "display": "Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Ethnicity",
+      "target": "self",
+      "element": [
+        {
+          "code": "Not Hispanic or Latino",
+          "display": "Not Hispanic or Latino",
+          "target": [
+            {
+              "code": "Not Hispanic or Latino",
+              "display": "Not Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Hispanic or Latino",
+          "display": "Hispanic or Latino",
+          "target": [
+            {
+              "code": "Hispanic or Latino",
+              "display": "Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Prefer not to answer",
+          "display": "Prefer not to answer",
+          "target": [
+            {
+              "code": "Prefer not to answer",
+              "display": "Prefer not to answer",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Ethnicity",
+      "target": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "element": [
+        {
+          "code": "Prefer not to answer",
+          "display": "Prefer not to answer",
+          "target": [
+            {
+              "code": "ASKU",
+              "display": "asked but unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "UNK",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Data Category",
+      "target": "https://includedcc.org/fhir/code-systems/data_categories",
+      "element": [
+        {
+          "code": "Transcriptomics",
+          "display": "Transcriptomics",
+          "target": [
+            {
+              "code": "Transcriptomics",
+              "display": "Transcriptomics",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Data Category",
+      "target": "self",
+      "element": [
+        {
+          "code": "Transcriptomics",
+          "display": "Transcriptomics",
+          "target": [
+            {
+              "code": "Transcriptomics",
+              "display": "Transcriptomics",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Experiment Strategy",
+      "target": "https://includedcc.org/fhir/code-systems/experimental_strategies",
+      "element": [
+        {
+          "code": "RNAseq",
+          "display": "RNA-Seq",
+          "target": [
+            {
+              "code": "RNA-Seq",
+              "display": "RNA-Seq",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Experiment Strategy",
+      "target": "self",
+      "element": [
+        {
+          "code": "RNAseq",
+          "display": "RNA-Seq",
+          "target": [
+            {
+              "code": "RNAseq",
+              "display": "RNA-Seq",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Data Type",
+      "target": "https://includedcc.org/fhir/code-systems/data_types",
+      "element": [
+        {
+          "code": "Gene expression quantifications",
+          "display": "Gene Expression Quantification",
+          "target": [
+            {
+              "code": "Gene-Expression-Quantifications",
+              "display": "Gene Expression Quantifications",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Alternative-Splicing",
+              "display": "Alternative Splicing",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Isoform Expression Quantification",
+          "display": "Isoform Expression Quantification",
+          "target": [
+            {
+              "code": "Isoform-Expression-Quantifications",
+              "display": "Isoform Expression Quantifications",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Raw Gene Fusion",
+          "display": "Raw Gene Fusion",
+          "target": [
+            {
+              "code": "Raw-Gene-Fusions",
+              "display": "Raw Gene Fusions",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Annotated Gene Fusion",
+          "display": "Annotated Gene Fusion",
+          "target": [
+            {
+              "code": "Annotated-Gene-Fusion",
+              "display": "Annotated Gene Fusion",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Data Type",
+      "target": "self",
+      "element": [
+        {
+          "code": "Gene expression quantifications",
+          "display": "Gene Expression Quantification",
+          "target": [
+            {
+              "code": "Gene expression quantifications",
+              "display": "Gene Expression Quantification",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Isoform Expression Quantification",
+          "display": "Isoform Expression Quantification",
+          "target": [
+            {
+              "code": "Isoform Expression Quantification",
+              "display": "Isoform Expression Quantification",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Raw Gene Fusion",
+          "display": "Raw Gene Fusion",
+          "target": [
+            {
+              "code": "Raw Gene Fusion",
+              "display": "Raw Gene Fusion",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Annotated Gene Fusion",
+          "display": "Annotated Gene Fusion",
+          "target": [
+            {
+              "code": "Annotated Gene Fusion",
+              "display": "Annotated Gene Fusion",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sample Type",
+      "target": "http://purl.obolibrary.org/obo/obi.owl",
+      "element": [
+        {
+          "code": "RNA",
+          "display": "RNA",
+          "target": [
+            {
+              "code": "OBI:0000880",
+              "display": "RNA extract",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sample Type",
+      "target": "self",
+      "element": [
+        {
+          "code": "RNA",
+          "display": "RNA",
+          "target": [
+            {
+              "code": "RNA",
+              "display": "RNA",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Peripheral Whole Blood",
+          "display": "Blood Sample",
+          "target": [
+            {
+              "code": "Peripheral Whole Blood",
+              "display": "Blood Sample",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sample Type",
+      "target": "http://purl.obolibrary.org/obo/ncit.owl",
+      "element": [
+        {
+          "code": "Peripheral Whole Blood",
+          "display": "Blood Sample",
+          "target": [
+            {
+              "code": "C17610",
+              "display": "Blood Sample",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "access_type",
+      "target": "https://includedcc.org/fhir/code-systems/data_access_types",
+      "element": [
+        {
+          "code": "Registered",
+          "display": "Registered",
+          "target": [
+            {
+              "code": "registered",
+              "display": "Registered",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "access_type",
+      "target": "self",
+      "element": [
+        {
+          "code": "Registered",
+          "display": "Registered",
+          "target": [
+            {
+              "code": "Registered",
+              "display": "Registered",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "DataSet",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/dataset",
+      "element": [
+        {
+          "code": "participant",
+          "display": "participant",
+          "target": [
+            {
+              "code": "participant",
+              "display": "participant",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "analyte",
+          "display": "analyte",
+          "target": [
+            {
+              "code": "analyte",
+              "display": "analyte",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "aligned_dna_short_read_set",
+          "display": "aligned_dna_short_read_set",
+          "target": [
+            {
+              "code": "aligned_dna_short_read_set",
+              "display": "aligned_dna_short_read_set",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "called_variants_dna_short_read",
+          "display": "called_variants_dna_short_read",
+          "target": [
+            {
+              "code": "called_variants_dna_short_read",
+              "display": "called_variants_dna_short_read",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "experiment_dna_short_read",
+          "display": "experiment_dna_short_read",
+          "target": [
+            {
+              "code": "experiment_dna_short_read",
+              "display": "experiment_dna_short_read",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "family",
+          "display": "family",
+          "target": [
+            {
+              "code": "family",
+              "display": "family",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "phenotype",
+          "display": "phenotype",
+          "target": [
+            {
+              "code": "phenotype",
+              "display": "phenotype",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "participant",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant",
+      "element": [
+        {
+          "code": "participant_id",
+          "display": "Subject/Participant Identifier (primary key)",
+          "target": [
+            {
+              "code": "participant_id",
+              "display": "Subject/Participant Identifier (primary key)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "internal_project_id",
+          "display": "An identifier used by GREGoR research centers to identify a set of participants for their internal tracking",
+          "target": [
+            {
+              "code": "internal_project_id",
+              "display": "An identifier used by GREGoR research centers to identify a set of participants for their internal tracking",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "gregor_center",
+          "display": "GREGoR Center to which the participant is originally associated",
+          "target": [
+            {
+              "code": "gregor_center",
+              "display": "GREGoR Center to which the participant is originally associated",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "consent_code",
+          "display": "Consent group pertaining to this participant's data",
+          "target": [
+            {
+              "code": "consent_code",
+              "display": "Consent group pertaining to this participant's data",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "recontactable",
+          "display": "Is the originating GREGoR Center likely able to recontact this participant",
+          "target": [
+            {
+              "code": "recontactable",
+              "display": "Is the originating GREGoR Center likely able to recontact this participant",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "prior_testing",
+          "display": "Text description of any genetic testing for individual conducted prior to enrollment",
+          "target": [
+            {
+              "code": "prior_testing",
+              "display": "Text description of any genetic testing for individual conducted prior to enrollment",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "pmid_id",
+          "display": "Case specific PubMed ID if applicable",
+          "target": [
+            {
+              "code": "pmid_id",
+              "display": "Case specific PubMed ID if applicable",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "family_id",
+          "display": "Identifier for family",
+          "target": [
+            {
+              "code": "family_id",
+              "display": "Identifier for family",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "paternal_id",
+          "display": "participant_id for father. 0 if not available",
+          "target": [
+            {
+              "code": "paternal_id",
+              "display": "participant_id for father. 0 if not available",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "maternal_id",
+          "display": "participant_id for mother. 0 if not available",
+          "target": [
+            {
+              "code": "maternal_id",
+              "display": "participant_id for mother. 0 if not available",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "twin_id",
+          "display": "participant_id for twins, triplets, etc. 0 if not available",
+          "target": [
+            {
+              "code": "twin_id",
+              "display": "participant_id for twins, triplets, etc. 0 if not available",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "proband_relationship",
+          "display": "Text description of individual relationship to proband in family, especially useful to capture relationships when connecting distant relatives and connecting relatives not studied",
+          "target": [
+            {
+              "code": "proband_relationship",
+              "display": "Text description of individual relationship to proband in family, especially useful to capture relationships when connecting distant relatives and connecting relatives not studied",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "proband_relationship_detail",
+          "display": "Other proband relationship not captured in enumeration above",
+          "target": [
+            {
+              "code": "proband_relationship_detail",
+              "display": "Other proband relationship not captured in enumeration above",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sex",
+          "display": "Biological sex assigned at birth (aligned with All of Us). If individual has a known DSD / not expected sex chromosome karyotype, this can be noted in the phenotype information section.",
+          "target": [
+            {
+              "code": "sex",
+              "display": "Biological sex assigned at birth (aligned with All of Us). If individual has a known DSD / not expected sex chromosome karyotype, this can be noted in the phenotype information section.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sex_detail",
+          "display": "Optional free-text field to describe known discrepancies between 'sex' value (female is equal to >XX, male is equal to >XY) and actual sex chromosome karyotype",
+          "target": [
+            {
+              "code": "sex_detail",
+              "display": "Optional free-text field to describe known discrepancies between 'sex' value (female is equal to >XX, male is equal to >XY) and actual sex chromosome karyotype",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "reported_race",
+          "display": "Self/submitter-reported race (OMB categories)",
+          "target": [
+            {
+              "code": "reported_race",
+              "display": "Self/submitter-reported race (OMB categories)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "reported_ethnicity",
+          "display": "Self/submitter-reported ethnicity (OMB categories)",
+          "target": [
+            {
+              "code": "reported_ethnicity",
+              "display": "Self/submitter-reported ethnicity (OMB categories)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ancestry_detail",
+          "display": "Additional specific ancestry description free text beyond what is captured by OMB race/ethnicity categories",
+          "target": [
+            {
+              "code": "ancestry_detail",
+              "display": "Additional specific ancestry description free text beyond what is captured by OMB race/ethnicity categories",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "age_at_last_observation",
+          "display": "Age at last observation, aka age in years at the last time the center can vouch for the accuracy phenotype data. For conditions with later age of onset, this field lets users know if individuals marked as unaffected were younger or older than the age when the phenotype is expected to appear.",
+          "target": [
+            {
+              "code": "age_at_last_observation",
+              "display": "Age at last observation, aka age in years at the last time the center can vouch for the accuracy phenotype data. For conditions with later age of onset, this field lets users know if individuals marked as unaffected were younger or older than the age when the phenotype is expected to appear.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "affected_status",
+          "display": "Indicate affected status of individual (overall with respect to primary phenotype in the family). Note: Affected participants must have entry in phenotype table.",
+          "target": [
+            {
+              "code": "affected_status",
+              "display": "Indicate affected status of individual (overall with respect to primary phenotype in the family). Note: Affected participants must have entry in phenotype table.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "phenotype_description",
+          "display": "human-readable 'Phenotypic one-line summary' for why this individual is of interest. Could be the same as the term_details value in the Phenotype table. Strongly encourage/required for proband.",
+          "target": [
+            {
+              "code": "phenotype_description",
+              "display": "human-readable 'Phenotypic one-line summary' for why this individual is of interest. Could be the same as the term_details value in the Phenotype table. Strongly encourage/required for proband.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "age_at_enrollment",
+          "display": "age in years at which consent was originally obtained",
+          "target": [
+            {
+              "code": "age_at_enrollment",
+              "display": "age in years at which consent was originally obtained",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "analyte",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/analyte",
+      "element": [
+        {
+          "code": "analyte_id",
+          "display": "identifier for an analyte from a primary biosample source (primary key)",
+          "target": [
+            {
+              "code": "analyte_id",
+              "display": "identifier for an analyte from a primary biosample source (primary key)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "participant_id",
+          "display": "participant_id",
+          "target": [
+            {
+              "code": "participant_id",
+              "display": "participant_id",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "analyte_type",
+          "display": "analyte derived from the primary_biosample. The actual thing you're sticking into a machine to analyze/sequence",
+          "target": [
+            {
+              "code": "analyte_type",
+              "display": "analyte derived from the primary_biosample. The actual thing you're sticking into a machine to analyze/sequence",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "analyte_processing_details",
+          "display": "details about how the analyte or original biosample was extracted or processed",
+          "target": [
+            {
+              "code": "analyte_processing_details",
+              "display": "details about how the analyte or original biosample was extracted or processed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "primary_biosample",
+          "display": "Tissue type of biosample taken from the participant that the analyte was extracted or processed from (for unknown can use tissue - UBERON:0000479), e.g. skin, liver, brain",
+          "target": [
+            {
+              "code": "primary_biosample",
+              "display": "Tissue type of biosample taken from the participant that the analyte was extracted or processed from (for unknown can use tissue - UBERON:0000479), e.g. skin, liver, brain",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "primary_biosample_id",
+          "display": "Optional ID for the biosample. allows for linking of multiple analytes extracted or processed from the same biosample",
+          "target": [
+            {
+              "code": "primary_biosample_id",
+              "display": "Optional ID for the biosample. allows for linking of multiple analytes extracted or processed from the same biosample",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "primary_biosample_details",
+          "display": "Free text to capture information not in structured fields",
+          "target": [
+            {
+              "code": "primary_biosample_details",
+              "display": "Free text to capture information not in structured fields",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "tissue_affected_status",
+          "display": "If applicable to disease (suspected mosaic), is the tissue from an affected source or an unaffected source?",
+          "target": [
+            {
+              "code": "tissue_affected_status",
+              "display": "If applicable to disease (suspected mosaic), is the tissue from an affected source or an unaffected source?",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "age_at_collection",
+          "display": "age or participant in years at biosample collection",
+          "target": [
+            {
+              "code": "age_at_collection",
+              "display": "age or participant in years at biosample collection",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "participant_drugs_intake",
+          "display": "The list of drugs patient is on, at the time of sample collection. This information is helpful during analysis of metabolomics and immune asssays. Free Text",
+          "target": [
+            {
+              "code": "participant_drugs_intake",
+              "display": "The list of drugs patient is on, at the time of sample collection. This information is helpful during analysis of metabolomics and immune asssays. Free Text",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "participant_special_diet",
+          "display": "If the patient was fasting, when the sample was collected. this is relevant when analyzing metabolomics data. Free Text",
+          "target": [
+            {
+              "code": "participant_special_diet",
+              "display": "If the patient was fasting, when the sample was collected. this is relevant when analyzing metabolomics data. Free Text",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "hours_since_last_meal",
+          "display": "his is relevant when analyzing metabolomics data",
+          "target": [
+            {
+              "code": "hours_since_last_meal",
+              "display": "his is relevant when analyzing metabolomics data",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "passage_number",
+          "display": "passage_number is relevant for fibroblast cultures and possibly iPSC.",
+          "target": [
+            {
+              "code": "passage_number",
+              "display": "passage_number is relevant for fibroblast cultures and possibly iPSC.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "time_to_freeze",
+          "display": "time (in hours) from collection to freezing the sample. delayed freeze turns out to be useful / important info for PaxGene blood (for RNA isolation).",
+          "target": [
+            {
+              "code": "time_to_freeze",
+              "display": "time (in hours) from collection to freezing the sample. delayed freeze turns out to be useful / important info for PaxGene blood (for RNA isolation).",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sample_transformation_detail",
+          "display": "details regarding sample transformation",
+          "target": [
+            {
+              "code": "sample_transformation_detail",
+              "display": "details regarding sample transformation",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "aligned_dna_short_read_set",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/aligned_dna_short_read_set",
+      "element": [
+        {
+          "code": "aligned_dna_short_read_set_id",
+          "display": "identifier for a set of experiments (primary key)",
+          "target": [
+            {
+              "code": "aligned_dna_short_read_set_id",
+              "display": "identifier for a set of experiments (primary key)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "aligned_dna_short_read_id",
+          "display": "aligned_dna_short_read_id",
+          "target": [
+            {
+              "code": "aligned_dna_short_read_id",
+              "display": "aligned_dna_short_read_id",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "called_variants_dna_short_read",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/called_variants_dna_short_read",
+      "element": [
+        {
+          "code": "called_variants_dna_short_read_id",
+          "display": "unique key for table (anvil requirement)",
+          "target": [
+            {
+              "code": "called_variants_dna_short_read_id",
+              "display": "unique key for table (anvil requirement)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "aligned_dna_short_read_set_id",
+          "display": "identifier for experiment set",
+          "target": [
+            {
+              "code": "aligned_dna_short_read_set_id",
+              "display": "identifier for experiment set",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "called_variants_dna_file",
+          "display": "name and path of the file with variant calls",
+          "target": [
+            {
+              "code": "called_variants_dna_file",
+              "display": "name and path of the file with variant calls",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "md5sum",
+          "display": "md5 checksum for file",
+          "target": [
+            {
+              "code": "md5sum",
+              "display": "md5 checksum for file",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "caller_software",
+          "display": "variant calling software used including version number",
+          "target": [
+            {
+              "code": "caller_software",
+              "display": "variant calling software used including version number",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "variant_types",
+          "display": "types of variants called",
+          "target": [
+            {
+              "code": "variant_types",
+              "display": "types of variants called",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "analysis_details",
+          "display": "brief description of the analysis pipeline used for producing the file. perhaps a link to something like a WDL file or github repository",
+          "target": [
+            {
+              "code": "analysis_details",
+              "display": "brief description of the analysis pipeline used for producing the file. perhaps a link to something like a WDL file or github repository",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "experiment_dna_short_read",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/experiment_dna_short_read",
+      "element": [
+        {
+          "code": "experiment_dna_short_read_id",
+          "display": "identifier for experiment_short_read (primary key)",
+          "target": [
+            {
+              "code": "experiment_dna_short_read_id",
+              "display": "identifier for experiment_short_read (primary key)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "analyte_id",
+          "display": "analyte_id",
+          "target": [
+            {
+              "code": "analyte_id",
+              "display": "analyte_id",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "experiment_sample_id",
+          "display": "identifier used in the data file (e.g. VCF header / LIMS ID)",
+          "target": [
+            {
+              "code": "experiment_sample_id",
+              "display": "identifier used in the data file (e.g. VCF header / LIMS ID)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "seq_library_prep_kit_method",
+          "display": "Library prep kit used",
+          "target": [
+            {
+              "code": "seq_library_prep_kit_method",
+              "display": "Library prep kit used",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "read_length",
+          "display": "sequenced read length (bp). GREGoR RCs do paired end sequencing, so is the example of 100bp indicates 2x100bp.",
+          "target": [
+            {
+              "code": "read_length",
+              "display": "sequenced read length (bp). GREGoR RCs do paired end sequencing, so is the example of 100bp indicates 2x100bp.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "experiment_type",
+          "display": "experiment_type",
+          "target": [
+            {
+              "code": "experiment_type",
+              "display": "experiment_type",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "targeted_regions_method",
+          "display": "Which capture kit is used. Can be missing if RC receives external data",
+          "target": [
+            {
+              "code": "targeted_regions_method",
+              "display": "Which capture kit is used. Can be missing if RC receives external data",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "targeted_region_bed_file",
+          "display": "name and path of bed file uploaded to workspace",
+          "target": [
+            {
+              "code": "targeted_region_bed_file",
+              "display": "name and path of bed file uploaded to workspace",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "date_data_generation",
+          "display": "Date of data generation (First sequencing date)",
+          "target": [
+            {
+              "code": "date_data_generation",
+              "display": "Date of data generation (First sequencing date)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "target_insert_size",
+          "display": "insert size the protocol targets for DNA fragments",
+          "target": [
+            {
+              "code": "target_insert_size",
+              "display": "insert size the protocol targets for DNA fragments",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "sequencing_platform",
+          "display": "sequencing platform used for the experiment",
+          "target": [
+            {
+              "code": "sequencing_platform",
+              "display": "sequencing platform used for the experiment",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "family",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/family",
+      "element": [
+        {
+          "code": "family_id",
+          "display": "Identifier for family (primary key)",
+          "target": [
+            {
+              "code": "family_id",
+              "display": "Identifier for family (primary key)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "consanguinity",
+          "display": "Indicate if consanguinity is present or suspected within a family",
+          "target": [
+            {
+              "code": "consanguinity",
+              "display": "Indicate if consanguinity is present or suspected within a family",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "consanguinity_detail",
+          "display": "Free text description of any additional consanguinity details",
+          "target": [
+            {
+              "code": "consanguinity_detail",
+              "display": "Free text description of any additional consanguinity details",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "pedigree_file",
+          "display": "name of file (renamed from pedigree_image because it can contain a PED file or image)",
+          "target": [
+            {
+              "code": "pedigree_file",
+              "display": "name of file (renamed from pedigree_image because it can contain a PED file or image)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "pedigree_file_detail",
+          "display": "Free text description of other family structure/pedigree file caption or legend.",
+          "target": [
+            {
+              "code": "pedigree_file_detail",
+              "display": "Free text description of other family structure/pedigree file caption or legend.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "family_history_detail",
+          "display": "Details about family history that do not fit into structured fields. Family relationship terms should be relative to the proband.",
+          "target": [
+            {
+              "code": "family_history_detail",
+              "display": "Details about family history that do not fit into structured fields. Family relationship terms should be relative to the proband.",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "phenotype",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/phenotype",
+      "element": [
+        {
+          "code": "phenotype_id",
+          "display": "primary key",
+          "target": [
+            {
+              "code": "phenotype_id",
+              "display": "primary key",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "participant_id",
+          "display": "Subject/Participant Identifier",
+          "target": [
+            {
+              "code": "participant_id",
+              "display": "Subject/Participant Identifier",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "term_id",
+          "display": "term_id",
+          "target": [
+            {
+              "code": "term_id",
+              "display": "term_id",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "presence",
+          "display": "presence",
+          "target": [
+            {
+              "code": "presence",
+              "display": "presence",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ontology",
+          "display": "ontology",
+          "target": [
+            {
+              "code": "ontology",
+              "display": "ontology",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "additional_details",
+          "display": "modifier of a term where the additional details are not supported/available as a term in HPO",
+          "target": [
+            {
+              "code": "additional_details",
+              "display": "modifier of a term where the additional details are not supported/available as a term in HPO",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "onset_age_range",
+          "display": "onset_age_range",
+          "target": [
+            {
+              "code": "onset_age_range",
+              "display": "onset_age_range",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "additional_modifiers",
+          "display": "additional_modifiers",
+          "target": [
+            {
+              "code": "additional_modifiers",
+              "display": "additional_modifiers",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

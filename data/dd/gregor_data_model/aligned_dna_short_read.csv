@@ -1,0 +1,10 @@
+variable_name,description,data_type,enumerations,notes
+aligned_dna_short_read_id,identifier for aligned_short_read (primary key),string,,experiment_short_read_id + alignment indicator
+experiment_dna_short_read_id,identifier for experiment,string,,
+aligned_dna_short_read_file,name and path of file with aligned reads,string,,
+aligned_dna_short_read_index_file,name and path of index file corresponding to aligned reads file,string,,
+md5sum,md5 checksum for file,string,,
+reference_assembly,,string,"{'GRCh38': 'GRCh38', 'GRCh37': 'GRCh37', 'NCBI36': 'NCBI36', 'NCBI35': 'NCBI35', 'NCBI34': 'NCBI34'}",
+alignment_software,Software including version number,string,,Can be unknown if RC receives external data
+mean_coverage,Mean coverage of either the genome or the targeted regions,number,,Can be unknown if RC receives external data
+analysis_details,brief description of the analysis pipeline used for producing the file; perhaps a DOI or link to something like a WDL file or github repository,string,,

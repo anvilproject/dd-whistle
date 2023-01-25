@@ -1,0 +1,7 @@
+variable_name,description,data_type,enumerations,notes
+family_id,Identifier for family (primary key),string,,"Needs to be Unique across centers, use participant.gregor_center as ID prefix."
+consanguinity,Indicate if consanguinity is present or suspected within a family,string,"{'None suspected': 'None suspected', 'Suspected': 'Suspected', 'Present': 'Present', 'Unknown': 'Unknown'}",
+consanguinity_detail,Free text description of any additional consanguinity details,string,,
+pedigree_file,name of file (renamed from pedigree_image because it can contain a PED file or image),string,,pedeigree file should be deposited to upload workspace
+pedigree_file_detail,Free text description of other family structure/pedigree file caption or legend.,string,,clarifying purpose: sometimes no PED file is available and the effort involved to encode a full pedigree is high when an image is already available (i.e. legacy publication describing the family)
+family_history_detail,Details about family history that do not fit into structured fields. Family relationship terms should be relative to the proband.,string,,useful if extended family history suggestive of mode of inheritance

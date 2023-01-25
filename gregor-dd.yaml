@@ -1,0 +1,98 @@
+study_id: GREGoR_DD
+study_accession:  
+study_title: GREGoR Data Model 
+study_desc: Data model for the GREGoR consortium
+url: https://gregorconsortium.org/
+identifier_prefix: https://gregorconsortium.org/fhir
+output_filename: gregor
+id_colname: subject_id
+whistle_src: _cmg.wstl
+study_sponsor:
+  id: nhgri
+  name: National Human Genome Research Institute (NHGRI)
+code_harmonization_dir: harmony/gregor
+require_official: True
+curies:
+  http://purl.obolibrary.org/obo/hp.owl: HP
+  http://purl.obolibrary.org/obo/mondo.owl: MONDO
+projector_lib: projector
+env:
+  local: dev
+  dev: dev
+  qa: google
+  prod: google
+dataset:
+  participant: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/gregor_data_model/participant.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/gregor/data-harmony.csv
+  analyte: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/gregor_data_model/analyte.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/gregor/data-harmony.csv
+  aligned_dna_short_read_set: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/gregor_data_model/aligned_dna_short_read_set.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/gregor/data-harmony.csv
+  called_variants_dna_short_read: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/gregor_data_model/called_variants_dna_short_read.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/gregor/data-harmony.csv
+  experiment_dna_short_read: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/gregor_data_model/experiment_dna_short_read.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/gregor/data-harmony.csv
+  family:
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/gregor_data_model/family.csv
+      key_columns: family_id
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/gregor/data-harmony.csv
+  phenotype:
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/gregor_data_model/phenotype.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/gregor/data-harmony.csv
+active_tables:
+  ALL: true
+
