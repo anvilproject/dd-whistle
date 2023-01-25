@@ -2,4 +2,5 @@ def Transform_Dataset(resource) {
     $this: CreateDataDictionaryTerminologies(resource);
     $this: CreateDataDictionaryConceptMap(resource);
     $this: CreateDataDictionaryDefinitions(resource);
+    $this: ProcessStudy(resource.study);
 }
