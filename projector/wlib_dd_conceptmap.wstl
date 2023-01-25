@@ -76,7 +76,7 @@ def BuildHarmonyConceptMap(study, harmony) {
     identifier: Key_Identifier(study, "ConceptMap", $StrCat(study.id, ".concept-map"));
     identifier.use: "official";
     status: "active";
-    purpose: "Represent transformations applied to the HTP dataset";
+    purpose: "Represent transformations applied to the dataset";
     url:  $StrCat("https://nih-ncpi.github.io/ncpi-fhir-ig/data-dictionary/conceptmap/", study.id, "/data-to-public");
     sourceUri: DataDictionaryVocabularyURL(study, "sources");
     targetUri: DataDictionaryVocabularyURL(study, "targets");

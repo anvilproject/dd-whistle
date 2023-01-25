@@ -111,7 +111,8 @@ def ProcessDatasetDefinition(study, table_name, dd_entry, code_system) {
     var entry (if entry_type = "string" and $ListLen(dd_entry.values) < 2): DdVariable(study, table_name, dd_entry, ["string"], code_system);
     var entry (if entry_type = "string" and $ListLen(dd_entry.values) > 1): DdVariable(study, table_name, dd_entry, ["CodeableConcept"], code_system);
     var entry (if entry_type = "number" or entry_type = "int" or dd_entry.type="year(4)"): DdVariable(study, table_name, dd_entry, ["Quantity"], code_system);
-    var entry (if entry_type = "timestamp"): DdVariable(study, table_name, dd_entry, ["dateTime"], code_system);
+    var entry (if entry_type = "boolean"): DdVariable(study, table_name, dd_entry, ["boolean"], code_system);
+    var entry (if entry_type = "timestamp" or entry_type = "date"): DdVariable(study, table_name, dd_entry, ["dateTime"], code_system);
        
     var entry (if $IsNil(dd_entry.type)): DdVariable(study, table_name, dd_entry, ["CodeableConcept"], code_system);
     if ($IsNil(entry)) {
