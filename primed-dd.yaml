@@ -1,0 +1,47 @@
+study_id: PRIMED_DD
+study_accession:  
+study_title: PRIMED GSR Data Model 
+study_desc: Data model for Genomic Summary Results in the PRIMED consortium
+url: https://primedconsortium.org/
+identifier_prefix: https://primedconsortium.org/fhir
+output_filename: primed
+id_colname: subject_id
+whistle_src: _cmg.wstl
+study_sponsor:
+  id: nih
+  name: National Institutes of Health (NIH)
+code_harmonization_dir: harmony/primed
+require_official: True
+curies:
+  http://purl.obolibrary.org/obo/hp.owl: HP
+  http://purl.obolibrary.org/obo/mondo.owl: MONDO
+projector_lib: projector
+env:
+  local: dev
+  dev: dev
+  qa: google
+  prod: google
+dataset:
+  analysis: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/primed_gsr_data_model/analysis.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/primed/data-harmony.csv
+  gsr_file: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/primed_gsr_data_model/gsr_file.csv
+      colnames:
+        varname: variable_name
+        desc: description
+        type: data_type
+        values: enumerations
+    code_harmonization: harmony/primed/data-harmony.csv
+active_tables:
+  ALL: true
+

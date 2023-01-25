@@ -1,0 +1,1560 @@
+{
+  "id": "data-harmony",
+  "resourceType": "ConceptMap",
+  "version": "v1",
+  "group": [
+    {
+      "source": "Condition Interpretation",
+      "target": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "element": [
+        {
+          "code": "Observed",
+          "display": "Observed",
+          "target": [
+            {
+              "code": "confirmed",
+              "display": "Confirmed",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Condition Interpretation",
+      "target": "self",
+      "element": [
+        {
+          "code": "Observed",
+          "display": "Observed",
+          "target": [
+            {
+              "code": "Observed",
+              "display": "Observed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Not Observed",
+          "display": "Not Observed",
+          "target": [
+            {
+              "code": "Not Observed",
+              "display": "Not Observed",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Condition Source",
+      "target": "self",
+      "element": [
+        {
+          "code": "Clinical",
+          "display": "Clinical",
+          "target": [
+            {
+              "code": "Clinical",
+              "display": "Clinical",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Self-Reported",
+          "display": "Self-Reported",
+          "target": [
+            {
+              "code": "Self-Reported",
+              "display": "Self-Reported",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Family Type",
+      "target": "self",
+      "element": [
+        {
+          "code": "Proband-only",
+          "display": "Proband-only",
+          "target": [
+            {
+              "code": "Proband-only",
+              "display": "Proband-only",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Trio",
+          "display": "Trio",
+          "target": [
+            {
+              "code": "Trio",
+              "display": "Trio",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Trio+",
+          "display": "Trio+",
+          "target": [
+            {
+              "code": "Trio+",
+              "display": "Trio+",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Duo",
+          "display": "Duo",
+          "target": [
+            {
+              "code": "Duo",
+              "display": "Duo",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sex",
+      "target": "http://hl7.org/fhir/administrative-gender",
+      "element": [
+        {
+          "code": "Male",
+          "display": "Male",
+          "target": [
+            {
+              "code": "male",
+              "display": "Male",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Female",
+          "display": "Female",
+          "target": [
+            {
+              "code": "female",
+              "display": "Female",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sex",
+      "target": "self",
+      "element": [
+        {
+          "code": "Male",
+          "display": "Male",
+          "target": [
+            {
+              "code": "Male",
+              "display": "Male",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Female",
+          "display": "Female",
+          "target": [
+            {
+              "code": "Female",
+              "display": "Female",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Race",
+      "target": "urn:oid:2.16.840.1.113883.6.238",
+      "element": [
+        {
+          "code": "White",
+          "display": "White",
+          "target": [
+            {
+              "code": "2028-9",
+              "display": "White",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Black or African American",
+          "display": "Black or African American",
+          "target": [
+            {
+              "code": "2054-5",
+              "display": "Black or African American",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Asian",
+          "display": "Asian",
+          "target": [
+            {
+              "code": "2028-9",
+              "display": "Asian",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "American Indian or Alaska Native",
+          "display": "American Indian or Alaska Native",
+          "target": [
+            {
+              "code": "1002-5",
+              "display": "American Indian or Alaska Native",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Native Hawaiian or Other Pacific Islander",
+          "display": "Native Hawaiian or Other Pacific Islander",
+          "target": [
+            {
+              "code": "2076-8",
+              "display": "Native Hawaiian or Other Pacific Islander",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Race",
+      "target": "self",
+      "element": [
+        {
+          "code": "White",
+          "display": "White",
+          "target": [
+            {
+              "code": "White",
+              "display": "White",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Black or African American",
+          "display": "Black or African American",
+          "target": [
+            {
+              "code": "Black or African American",
+              "display": "Black or African American",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Asian",
+          "display": "Asian",
+          "target": [
+            {
+              "code": "Asian",
+              "display": "Asian",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "More than one race",
+          "display": "More than one race",
+          "target": [
+            {
+              "code": "More than one race",
+              "display": "More than one race",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "American Indian or Alaska Native",
+          "display": "American Indian or Alaska Native",
+          "target": [
+            {
+              "code": "American Indian or Alaska Native",
+              "display": "American Indian or Alaska Native",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Native Hawaiian or Other Pacific Islander",
+          "display": "Native Hawaiian or Other Pacific Islander",
+          "target": [
+            {
+              "code": "Native Hawaiian or Other Pacific Islander",
+              "display": "Native Hawaiian or Other Pacific Islander",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Prefer not to answer",
+          "display": "Prefer not to answer",
+          "target": [
+            {
+              "code": "Prefer not to answer",
+              "display": "Prefer not to answer",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Race",
+      "target": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "element": [
+        {
+          "code": "More than one race",
+          "display": "More than one race",
+          "target": [
+            {
+              "code": "UNK",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "OTH",
+              "display": "other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Prefer not to answer",
+          "display": "Prefer not to answer",
+          "target": [
+            {
+              "code": "ASKU",
+              "display": "asked but unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "UNK",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Ethnicity",
+      "target": "urn:oid:2.16.840.1.113883.6.238",
+      "element": [
+        {
+          "code": "Not Hispanic or Latino",
+          "display": "Not Hispanic or Latino",
+          "target": [
+            {
+              "code": "2186-5",
+              "display": "Not Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Hispanic or Latino",
+          "display": "Hispanic or Latino",
+          "target": [
+            {
+              "code": "2135-2",
+              "display": "Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Ethnicity",
+      "target": "self",
+      "element": [
+        {
+          "code": "Not Hispanic or Latino",
+          "display": "Not Hispanic or Latino",
+          "target": [
+            {
+              "code": "Not Hispanic or Latino",
+              "display": "Not Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Hispanic or Latino",
+          "display": "Hispanic or Latino",
+          "target": [
+            {
+              "code": "Hispanic or Latino",
+              "display": "Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Prefer not to answer",
+          "display": "Prefer not to answer",
+          "target": [
+            {
+              "code": "Prefer not to answer",
+              "display": "Prefer not to answer",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Ethnicity",
+      "target": "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "element": [
+        {
+          "code": "Prefer not to answer",
+          "display": "Prefer not to answer",
+          "target": [
+            {
+              "code": "ASKU",
+              "display": "asked but unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "UNK",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Data Category",
+      "target": "https://includedcc.org/fhir/code-systems/data_categories",
+      "element": [
+        {
+          "code": "Transcriptomics",
+          "display": "Transcriptomics",
+          "target": [
+            {
+              "code": "Transcriptomics",
+              "display": "Transcriptomics",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Data Category",
+      "target": "self",
+      "element": [
+        {
+          "code": "Transcriptomics",
+          "display": "Transcriptomics",
+          "target": [
+            {
+              "code": "Transcriptomics",
+              "display": "Transcriptomics",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Experiment Strategy",
+      "target": "https://includedcc.org/fhir/code-systems/experimental_strategies",
+      "element": [
+        {
+          "code": "RNAseq",
+          "display": "RNA-Seq",
+          "target": [
+            {
+              "code": "RNA-Seq",
+              "display": "RNA-Seq",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Experiment Strategy",
+      "target": "self",
+      "element": [
+        {
+          "code": "RNAseq",
+          "display": "RNA-Seq",
+          "target": [
+            {
+              "code": "RNAseq",
+              "display": "RNA-Seq",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Data Type",
+      "target": "https://includedcc.org/fhir/code-systems/data_types",
+      "element": [
+        {
+          "code": "Gene expression quantifications",
+          "display": "Gene Expression Quantification",
+          "target": [
+            {
+              "code": "Gene-Expression-Quantifications",
+              "display": "Gene Expression Quantifications",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Alternative-Splicing",
+              "display": "Alternative Splicing",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Isoform Expression Quantification",
+          "display": "Isoform Expression Quantification",
+          "target": [
+            {
+              "code": "Isoform-Expression-Quantifications",
+              "display": "Isoform Expression Quantifications",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Raw Gene Fusion",
+          "display": "Raw Gene Fusion",
+          "target": [
+            {
+              "code": "Raw-Gene-Fusions",
+              "display": "Raw Gene Fusions",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Annotated Gene Fusion",
+          "display": "Annotated Gene Fusion",
+          "target": [
+            {
+              "code": "Annotated-Gene-Fusion",
+              "display": "Annotated Gene Fusion",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Data Type",
+      "target": "self",
+      "element": [
+        {
+          "code": "Gene expression quantifications",
+          "display": "Gene Expression Quantification",
+          "target": [
+            {
+              "code": "Gene expression quantifications",
+              "display": "Gene Expression Quantification",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Isoform Expression Quantification",
+          "display": "Isoform Expression Quantification",
+          "target": [
+            {
+              "code": "Isoform Expression Quantification",
+              "display": "Isoform Expression Quantification",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Raw Gene Fusion",
+          "display": "Raw Gene Fusion",
+          "target": [
+            {
+              "code": "Raw Gene Fusion",
+              "display": "Raw Gene Fusion",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Annotated Gene Fusion",
+          "display": "Annotated Gene Fusion",
+          "target": [
+            {
+              "code": "Annotated Gene Fusion",
+              "display": "Annotated Gene Fusion",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sample Type",
+      "target": "http://purl.obolibrary.org/obo/obi.owl",
+      "element": [
+        {
+          "code": "RNA",
+          "display": "RNA",
+          "target": [
+            {
+              "code": "OBI:0000880",
+              "display": "RNA extract",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sample Type",
+      "target": "self",
+      "element": [
+        {
+          "code": "RNA",
+          "display": "RNA",
+          "target": [
+            {
+              "code": "RNA",
+              "display": "RNA",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Peripheral Whole Blood",
+          "display": "Blood Sample",
+          "target": [
+            {
+              "code": "Peripheral Whole Blood",
+              "display": "Blood Sample",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Sample Type",
+      "target": "http://purl.obolibrary.org/obo/ncit.owl",
+      "element": [
+        {
+          "code": "Peripheral Whole Blood",
+          "display": "Blood Sample",
+          "target": [
+            {
+              "code": "C17610",
+              "display": "Blood Sample",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "access_type",
+      "target": "https://includedcc.org/fhir/code-systems/data_access_types",
+      "element": [
+        {
+          "code": "Registered",
+          "display": "Registered",
+          "target": [
+            {
+              "code": "registered",
+              "display": "Registered",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "access_type",
+      "target": "self",
+      "element": [
+        {
+          "code": "Registered",
+          "display": "Registered",
+          "target": [
+            {
+              "code": "Registered",
+              "display": "Registered",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "DataSet",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/dataset",
+      "element": [
+        {
+          "code": "analysis",
+          "display": "analysis",
+          "target": [
+            {
+              "code": "analysis",
+              "display": "analysis",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "gsr_file",
+          "display": "gsr_file",
+          "target": [
+            {
+              "code": "gsr_file",
+              "display": "gsr_file",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "analysis",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/analysis",
+      "element": [
+        {
+          "code": "analysis_id",
+          "display": "unique identifier for a gwas in primed",
+          "target": [
+            {
+              "code": "analysis_id",
+              "display": "unique identifier for a gwas in primed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "gsr_source",
+          "display": "Information about source of GSR data. Include additional details in README",
+          "target": [
+            {
+              "code": "gsr_source",
+              "display": "Information about source of GSR data. Include additional details in README",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "gwas_catalog_study_id",
+          "display": "Study accession identifier for GSR downloaded from GWAS Catalog",
+          "target": [
+            {
+              "code": "gwas_catalog_study_id",
+              "display": "Study accession identifier for GSR downloaded from GWAS Catalog",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "dbgap_analysis_accession",
+          "display": "Analysis accession identifier for GSR downloaded from dbGaP",
+          "target": [
+            {
+              "code": "dbgap_analysis_accession",
+              "display": "Analysis accession identifier for GSR downloaded from dbGaP",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "pubmed_id",
+          "display": "Pubmed ID identifier of the publication reporting the GWAS",
+          "target": [
+            {
+              "code": "pubmed_id",
+              "display": "Pubmed ID identifier of the publication reporting the GWAS",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "first_author",
+          "display": "Last name and initials of the first author",
+          "target": [
+            {
+              "code": "first_author",
+              "display": "Last name and initials of the first author",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "link",
+          "display": "External link to the publication",
+          "target": [
+            {
+              "code": "link",
+              "display": "External link to the publication",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "release_date",
+          "display": "Date on which the GWAS was released publicy",
+          "target": [
+            {
+              "code": "release_date",
+              "display": "Date on which the GWAS was released publicy",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "consent_code",
+          "display": "consent abbreviation (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4721915/table/pgen.1005772.t001/?report is equal to objectonly)",
+          "target": [
+            {
+              "code": "consent_code",
+              "display": "consent abbreviation (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4721915/table/pgen.1005772.t001/?report is equal to objectonly)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "upload_date",
+          "display": "Date GSR was uploaded to PRIMED AnVIL workspace",
+          "target": [
+            {
+              "code": "upload_date",
+              "display": "Date GSR was uploaded to PRIMED AnVIL workspace",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "contributor_contact",
+          "display": "email of the PRIMED contributor who can be contacted for data related questions",
+          "target": [
+            {
+              "code": "contributor_contact",
+              "display": "email of the PRIMED contributor who can be contacted for data related questions",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "trait",
+          "display": "reported trait",
+          "target": [
+            {
+              "code": "trait",
+              "display": "reported trait",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "trait_type",
+          "display": "type of trait",
+          "target": [
+            {
+              "code": "trait_type",
+              "display": "type of trait",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "trait_unit",
+          "display": "unit of measurement for the reported trait (before transformation)",
+          "target": [
+            {
+              "code": "trait_unit",
+              "display": "unit of measurement for the reported trait (before transformation)",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "trait_transformation",
+          "display": "transformation applied to the reported trait",
+          "target": [
+            {
+              "code": "trait_transformation",
+              "display": "transformation applied to the reported trait",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "trait_definition",
+          "display": "a brief description of how the trait was measured or defined. additional details can be provided in the README",
+          "target": [
+            {
+              "code": "trait_definition",
+              "display": "a brief description of how the trait was measured or defined. additional details can be provided in the README",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "covariates",
+          "display": "Covariates included in the association analysis for trait adjustment",
+          "target": [
+            {
+              "code": "covariates",
+              "display": "Covariates included in the association analysis for trait adjustment",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "concept_id",
+          "display": "concept_id for trait from OMOP concept table",
+          "target": [
+            {
+              "code": "concept_id",
+              "display": "concept_id for trait from OMOP concept table",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "mapped_trait",
+          "display": "Experimental Factor Ontology (EFO) term the trait was mapped to",
+          "target": [
+            {
+              "code": "mapped_trait",
+              "display": "Experimental Factor Ontology (EFO) term the trait was mapped to",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "reference_assembly",
+          "display": "Reference genome assembly that the submitted data is mapped to",
+          "target": [
+            {
+              "code": "reference_assembly",
+              "display": "Reference genome assembly that the submitted data is mapped to",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "dbsnp_build_version",
+          "display": "dbSNP build for the rsIDS included in GSR files",
+          "target": [
+            {
+              "code": "dbsnp_build_version",
+              "display": "dbSNP build for the rsIDS included in GSR files",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "n_variants",
+          "display": "Total number of variants in the analysis results across all chromosomes",
+          "target": [
+            {
+              "code": "n_variants",
+              "display": "Total number of variants in the analysis results across all chromosomes",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "min_MAF_filter",
+          "display": "minimum minor allele frequency filter",
+          "target": [
+            {
+              "code": "min_MAF_filter",
+              "display": "minimum minor allele frequency filter",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "min_MAC_filter",
+          "display": "minimum minor allele count filter",
+          "target": [
+            {
+              "code": "min_MAC_filter",
+              "display": "minimum minor allele count filter",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "genotyping_technology",
+          "display": "The genotyping technology used for detecting variants",
+          "target": [
+            {
+              "code": "genotyping_technology",
+              "display": "The genotyping technology used for detecting variants",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "genotyping_platform",
+          "display": "Genotyping platform description including manufacturer, array name, sequencer name",
+          "target": [
+            {
+              "code": "genotyping_platform",
+              "display": "Genotyping platform description including manufacturer, array name, sequencer name",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "is_imputed",
+          "display": "Indicator of whether the analysis performed using imputed genotypes or dosages",
+          "target": [
+            {
+              "code": "is_imputed",
+              "display": "Indicator of whether the analysis performed using imputed genotypes or dosages",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "imputation_reference_panel",
+          "display": "Reference panel use for imputation",
+          "target": [
+            {
+              "code": "imputation_reference_panel",
+              "display": "Reference panel use for imputation",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "imputation_reference_panel_detail",
+          "display": "Details of the imputation reference panel. e.g. version number or name of panel when imputation_reference_panel  is equal to  'Other'",
+          "target": [
+            {
+              "code": "imputation_reference_panel_detail",
+              "display": "Details of the imputation reference panel. e.g. version number or name of panel when imputation_reference_panel  is equal to  'Other'",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "imputation_quality_filter",
+          "display": "minimum imputation quality value (e.g. Rsq, info) for filtering imputed variants",
+          "target": [
+            {
+              "code": "imputation_quality_filter",
+              "display": "minimum imputation quality value (e.g. Rsq, info) for filtering imputed variants",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "n_samp",
+          "display": "Total sample size in the analysis",
+          "target": [
+            {
+              "code": "n_samp",
+              "display": "Total sample size in the analysis",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "n_case",
+          "display": "Number of cases",
+          "target": [
+            {
+              "code": "n_case",
+              "display": "Number of cases",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "n_ctrl",
+          "display": "Number of controls",
+          "target": [
+            {
+              "code": "n_ctrl",
+              "display": "Number of controls",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "n_effective",
+          "display": "effective sample size  is equal to  n_samp for quantitative traits   is equal to  4/(1/n_case + 1/n_ctrl) for binary traits",
+          "target": [
+            {
+              "code": "n_effective",
+              "display": "effective sample size  is equal to  n_samp for quantitative traits   is equal to  4/(1/n_case + 1/n_ctrl) for binary traits",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "proportion_female",
+          "display": "proportion of female participants",
+          "target": [
+            {
+              "code": "proportion_female",
+              "display": "proportion of female participants",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "age_mean",
+          "display": "mean age of study participants",
+          "target": [
+            {
+              "code": "age_mean",
+              "display": "mean age of study participants",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "age_median",
+          "display": "median age of study participants",
+          "target": [
+            {
+              "code": "age_median",
+              "display": "median age of study participants",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "age_min",
+          "display": "minimum age of study participants",
+          "target": [
+            {
+              "code": "age_min",
+              "display": "minimum age of study participants",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "age_max",
+          "display": "maximum age of study participants",
+          "target": [
+            {
+              "code": "age_max",
+              "display": "maximum age of study participants",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "case_age_mean",
+          "display": "mean age of study cases",
+          "target": [
+            {
+              "code": "case_age_mean",
+              "display": "mean age of study cases",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "case_age_median",
+          "display": "median age of study cases",
+          "target": [
+            {
+              "code": "case_age_median",
+              "display": "median age of study cases",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "case_age_min",
+          "display": "minimum age of study cases",
+          "target": [
+            {
+              "code": "case_age_min",
+              "display": "minimum age of study cases",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "case_age_max",
+          "display": "maximum age of study cases",
+          "target": [
+            {
+              "code": "case_age_max",
+              "display": "maximum age of study cases",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ctrl_age_mean",
+          "display": "mean age of study controls",
+          "target": [
+            {
+              "code": "ctrl_age_mean",
+              "display": "mean age of study controls",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ctrl_age_min",
+          "display": "minimum age of study controls",
+          "target": [
+            {
+              "code": "ctrl_age_min",
+              "display": "minimum age of study controls",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ctrl_age_max",
+          "display": "maximum age of study controls",
+          "target": [
+            {
+              "code": "ctrl_age_max",
+              "display": "maximum age of study controls",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "cohorts",
+          "display": "A list of cohorts that collected the samples.",
+          "target": [
+            {
+              "code": "cohorts",
+              "display": "A list of cohorts that collected the samples.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "is_meta_analysis",
+          "display": "Is the analysis a meta-analysis?",
+          "target": [
+            {
+              "code": "is_meta_analysis",
+              "display": "Is the analysis a meta-analysis?",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "population_descriptors",
+          "display": "population_descriptors",
+          "target": [
+            {
+              "code": "population_descriptors",
+              "display": "population_descriptors",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "population_proportions",
+          "display": "proportion of participants from each population in the same order mapping to the values in the population_descriptors variable",
+          "target": [
+            {
+              "code": "population_proportions",
+              "display": "proportion of participants from each population in the same order mapping to the values in the population_descriptors variable",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "countries_of_recruitment",
+          "display": "Reported countries of recruitment",
+          "target": [
+            {
+              "code": "countries_of_recruitment",
+              "display": "Reported countries of recruitment",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "countries_of_birth",
+          "display": "Reported countries of birth",
+          "target": [
+            {
+              "code": "countries_of_birth",
+              "display": "Reported countries of birth",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "analysis_method",
+          "display": "The name or description of the method or computational algorithm used for GWAS.",
+          "target": [
+            {
+              "code": "analysis_method",
+              "display": "The name or description of the method or computational algorithm used for GWAS.",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "analysis_software",
+          "display": "The name of the software used for the GWAS",
+          "target": [
+            {
+              "code": "analysis_software",
+              "display": "The name of the software used for the GWAS",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "gsr_file",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/gsr_file",
+      "element": [
+        {
+          "code": "gsr_file_id",
+          "display": "gsr_file_id",
+          "target": [
+            {
+              "code": "gsr_file_id",
+              "display": "gsr_file_id",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "md5sum",
+          "display": "A valid md5 checksum",
+          "target": [
+            {
+              "code": "md5sum",
+              "display": "A valid md5 checksum",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "analysis_id",
+          "display": "unique identifier for a gwas in primed",
+          "target": [
+            {
+              "code": "analysis_id",
+              "display": "unique identifier for a gwas in primed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "file_path",
+          "display": "File path in cloud storage",
+          "target": [
+            {
+              "code": "file_path",
+              "display": "File path in cloud storage",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "file_type",
+          "display": "Type of the file",
+          "target": [
+            {
+              "code": "file_type",
+              "display": "Type of the file",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "chromosome",
+          "display": "chromosome included in the GSR data file",
+          "target": [
+            {
+              "code": "chromosome",
+              "display": "chromosome included in the GSR data file",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "n_variants",
+          "display": "Count of variants in the GSR data file",
+          "target": [
+            {
+              "code": "n_variants",
+              "display": "Count of variants in the GSR data file",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

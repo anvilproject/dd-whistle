@@ -1,0 +1,8 @@
+variable_name,description,data_type,enumerations,notes
+gsr_file_id,,string,,AnVIL requires entity id with naming convention <table_name>_id
+md5sum,A valid md5 checksum,string,,(32-digit hexadecimal number)
+analysis_id,unique identifier for a gwas in primed,string,,AnVIL upload workflow would generate this
+file_path,File path in cloud storage,string,,
+file_type,Type of the file,string,"{'data': 'data', 'data dictionary': 'data dictionary', 'README': 'README'}",
+chromosome,chromosome included in the GSR data file,string,"{'ALL': 'ALL', '1': '1', '2': '2', '3': '3', '4': '4', '5': '5', '6': '6', '7': '7', '8': '8', '9': '9', '10': '10', '11': '11', '12': '12', '13': '13', '14': '14', '15': '15', '16': '16', '17': '17', '18': '18', '19': '19', '20': '20', '21': '21', '22': '22', 'X': 'X', 'Y': 'Y', 'MT': 'MT'}",'NA' ( for DD or README files)
+n_variants,Count of variants in the GSR data file,int,,'NA' ( for DD or README files)

@@ -1,0 +1,55 @@
+variable_name,description,data_type,enumerations,notes
+analysis_id,unique identifier for a gwas in primed,string,,PRIMED upload workflow would generate this
+gsr_source,Information about source of GSR data. Include additional details in README,string,,free text short label; useful for unreleased GSR
+gwas_catalog_study_id,Study accession identifier for GSR downloaded from GWAS Catalog,string,,identifier in GCSTXXXXXX format
+dbgap_analysis_accession,Analysis accession identifier for GSR downloaded from dbGaP,string,,identifier in phaXXXXXX.v format
+pubmed_id,Pubmed ID identifier of the publication reporting the GWAS,string,,PMID identifier
+first_author,Last name and initials of the first author,string,,
+link,External link to the publication,string,,URL of publication
+release_date,Date on which the GWAS was released publicy,date,,e.g. on dbGaP or GWAS Catalog
+consent_code,consent abbreviation (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4721915/table/pgen.1005772.t001/?report=objectonly),string,,NRES is the code for no restrictions on data use (i.e. open access)
+upload_date,Date GSR was uploaded to PRIMED AnVIL workspace,date,,PRIMED upload workflow would generate this
+contributor_contact,email of the PRIMED contributor who can be contacted for data related questions,string,,recommended by WG. helpful when GSR is not publicly released and is from a Biobank or some other source
+trait,reported trait,string,,free text trait name
+trait_type,type of trait,string,"{'quantitative': 'quantitative', 'binary': 'binary', 'categorical': 'categorical', 'ordinal': 'ordinal', 'time_to_event': 'time_to_event', 'count': 'count'}",determines which columns we need to check for in the data file
+trait_unit,unit of measurement for the reported trait (before transformation),string,,"Report unit as something like 'binary',  'indicator', or 'categorical'  for non-quantitative traits"
+trait_transformation,transformation applied to the reported trait,string,,put 'none' if no transformation applied
+trait_definition,a brief description of how the trait was measured or defined; additional details can be provided in the README,string,,e.g. ICD codes used to identify cases/phenotypes in EHR data
+covariates,Covariates included in the association analysis for trait adjustment,string,,put 'none' if no covariates
+concept_id,concept_id for trait from OMOP concept table,string,,discuss in PRIMED phenotype WG
+mapped_trait,Experimental Factor Ontology (EFO) term the trait was mapped to,string,,mapped_trait value used in GWAS Catalog
+reference_assembly,Reference genome assembly that the submitted data is mapped to,string,"{'GRCh38': 'GRCh38', 'GRCh37': 'GRCh37', 'NCBI36': 'NCBI36', 'NCBI35': 'NCBI35', 'NCBI34': 'NCBI34'}",
+dbsnp_build_version,dbSNP build for the rsIDS included in GSR files,string,,
+n_variants,Total number of variants in the analysis results across all chromosomes,int,,This will be used for a QC step to check data integrity of submitted data
+min_MAF_filter,minimum minor allele frequency filter,number,,
+min_MAC_filter,minimum minor allele count filter,int,,
+genotyping_technology,The genotyping technology used for detecting variants,string,"{'genome-wide array': 'genome-wide array', 'WGS': 'WGS', 'exome array': 'exome array', 'WES': 'WES', 'other array': 'other array'}",
+genotyping_platform,"Genotyping platform description including manufacturer, array name, sequencer name",string,,put 'unavailable' if unknown
+is_imputed,Indicator of whether the analysis performed using imputed genotypes or dosages,boolean,"{'TRUE': 'TRUE', 'FALSE': 'FALSE'}",
+imputation_reference_panel,Reference panel use for imputation,string,"{'1000 Genomes': '1000 Genomes', 'HRC': 'HRC', 'TOPMed': 'TOPMed', 'Other': 'Other'}",Put 'Other' if not one of the common reference panels listed. Can include further information in imputation_reference_panel_detail or README
+imputation_reference_panel_detail,Details of the imputation reference panel; e.g. version number or name of panel when imputation_reference_panel = 'Other',string,,version number or name of 'other' include N/A
+imputation_quality_filter,"minimum imputation quality value (e.g. Rsq, info) for filtering imputed variants",number,,"If no filter, enter value of 0"
+n_samp,Total sample size in the analysis,int,,"When different markers have different sample sizes, e.g, due to missing genotypes, use max sample size across markers"
+n_case,Number of cases,int,,"When different markers have different sample sizes, e.g, due to missing genotypes, use max number of cases across markers"
+n_ctrl,Number of controls,int,,"When different markers have different sample sizes, e.g, due to missing genotypes, use max number of controls across markers"
+n_effective,effective sample size = n_samp for quantitative traits  = 4/(1/n_case + 1/n_ctrl) for binary traits,number,,"When different markers have different sample sizes, e.g, due to missing genotypes, use max sample size across markers"
+proportion_female,proportion of female participants,number,,
+age_mean,mean age of study participants,number,,
+age_median,median age of study participants,number,,
+age_min,minimum age of study participants,number,,
+age_max,maximum age of study participants,number,,
+case_age_mean,mean age of study cases,number,,
+case_age_median,median age of study cases,number,,
+case_age_min,minimum age of study cases,number,,
+case_age_max,maximum age of study cases,number,,
+ctrl_age_mean,mean age of study controls,number,,
+ctrl_age_min,minimum age of study controls,number,,
+ctrl_age_max,maximum age of study controls,number,,
+cohorts,A list of cohorts that collected the samples.,string,,
+is_meta_analysis,Is the analysis a meta-analysis?,boolean,,to do QC checks and ensure required feilds for meta-analysis are submitted in GSR files
+population_descriptors,,string,,
+population_proportions,proportion of participants from each population in the same order mapping to the values in the population_descriptors variable,string,,
+countries_of_recruitment,Reported countries of recruitment,string,,
+countries_of_birth,Reported countries of birth,string,,
+analysis_method,The name or description of the method or computational algorithm used for GWAS.,string,,
+analysis_software,The name of the software used for the GWAS,string,,
