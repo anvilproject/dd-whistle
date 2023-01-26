@@ -929,6 +929,593 @@
       ]
     },
     {
+      "source": "gregor_center",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant/gregor_center",
+      "element": [
+        {
+          "code": "BCM",
+          "display": "BCM",
+          "target": [
+            {
+              "code": "BCM",
+              "display": "BCM",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "BROAD",
+          "display": "BROAD",
+          "target": [
+            {
+              "code": "BROAD",
+              "display": "BROAD",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CNH_I",
+          "display": "CNH_I",
+          "target": [
+            {
+              "code": "CNH_I",
+              "display": "CNH_I",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UW_CRDR",
+          "display": "UW_CRDR",
+          "target": [
+            {
+              "code": "UW_CRDR",
+              "display": "UW_CRDR",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "GSS",
+          "display": "GSS",
+          "target": [
+            {
+              "code": "GSS",
+              "display": "GSS",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UW_DCC",
+          "display": "UW_DCC",
+          "target": [
+            {
+              "code": "UW_DCC",
+              "display": "UW_DCC",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "consent_code",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant/consent_code",
+      "element": [
+        {
+          "code": "GRU",
+          "display": "GRU",
+          "target": [
+            {
+              "code": "GRU",
+              "display": "GRU",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HMB",
+          "display": "HMB",
+          "target": [
+            {
+              "code": "HMB",
+              "display": "HMB",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "recontactable",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant/recontactable",
+      "element": [
+        {
+          "code": "Yes",
+          "display": "Yes",
+          "target": [
+            {
+              "code": "Yes",
+              "display": "Yes",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "No",
+          "display": "No",
+          "target": [
+            {
+              "code": "No",
+              "display": "No",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "proband_relationship",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant/proband_relationship",
+      "element": [
+        {
+          "code": "Self",
+          "display": "Self",
+          "target": [
+            {
+              "code": "Self",
+              "display": "Self",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Mother",
+          "display": "Mother",
+          "target": [
+            {
+              "code": "Mother",
+              "display": "Mother",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Father",
+          "display": "Father",
+          "target": [
+            {
+              "code": "Father",
+              "display": "Father",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Sibling",
+          "display": "Sibling",
+          "target": [
+            {
+              "code": "Sibling",
+              "display": "Sibling",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Child",
+          "display": "Child",
+          "target": [
+            {
+              "code": "Child",
+              "display": "Child",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Maternal Half Sibling",
+          "display": "Maternal Half Sibling",
+          "target": [
+            {
+              "code": "Maternal Half Sibling",
+              "display": "Maternal Half Sibling",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Paternal Half Sibling",
+          "display": "Paternal Half Sibling",
+          "target": [
+            {
+              "code": "Paternal Half Sibling",
+              "display": "Paternal Half Sibling",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Maternal Grandmother",
+          "display": "Maternal Grandmother",
+          "target": [
+            {
+              "code": "Maternal Grandmother",
+              "display": "Maternal Grandmother",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Maternal Grandfather",
+          "display": "Maternal Grandfather",
+          "target": [
+            {
+              "code": "Maternal Grandfather",
+              "display": "Maternal Grandfather",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Paternal Grandmother",
+          "display": "Paternal Grandmother",
+          "target": [
+            {
+              "code": "Paternal Grandmother",
+              "display": "Paternal Grandmother",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Paternal Grandfather",
+          "display": "Paternal Grandfather",
+          "target": [
+            {
+              "code": "Paternal Grandfather",
+              "display": "Paternal Grandfather",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Maternal Aunt",
+          "display": "Maternal Aunt",
+          "target": [
+            {
+              "code": "Maternal Aunt",
+              "display": "Maternal Aunt",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Maternal Uncle",
+          "display": "Maternal Uncle",
+          "target": [
+            {
+              "code": "Maternal Uncle",
+              "display": "Maternal Uncle",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Paternal Aunt",
+          "display": "Paternal Aunt",
+          "target": [
+            {
+              "code": "Paternal Aunt",
+              "display": "Paternal Aunt",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Paternal Uncle",
+          "display": "Paternal Uncle",
+          "target": [
+            {
+              "code": "Paternal Uncle",
+              "display": "Paternal Uncle",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Niece",
+          "display": "Niece",
+          "target": [
+            {
+              "code": "Niece",
+              "display": "Niece",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Nephew",
+          "display": "Nephew",
+          "target": [
+            {
+              "code": "Nephew",
+              "display": "Nephew",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Maternal 1st Cousin",
+          "display": "Maternal 1st Cousin",
+          "target": [
+            {
+              "code": "Maternal 1st Cousin",
+              "display": "Maternal 1st Cousin",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Paternal 1st Cousin",
+          "display": "Paternal 1st Cousin",
+          "target": [
+            {
+              "code": "Paternal 1st Cousin",
+              "display": "Paternal 1st Cousin",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "sex",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant/sex",
+      "element": [
+        {
+          "code": "Female",
+          "display": "Female",
+          "target": [
+            {
+              "code": "Female",
+              "display": "Female",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Male",
+          "display": "Male",
+          "target": [
+            {
+              "code": "Male",
+              "display": "Male",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "reported_race",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant/reported_race",
+      "element": [
+        {
+          "code": "American Indian or Alaska Native",
+          "display": "American Indian or Alaska Native",
+          "target": [
+            {
+              "code": "American Indian or Alaska Native",
+              "display": "American Indian or Alaska Native",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Asian",
+          "display": "Asian",
+          "target": [
+            {
+              "code": "Asian",
+              "display": "Asian",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Black or African American",
+          "display": "Black or African American",
+          "target": [
+            {
+              "code": "Black or African American",
+              "display": "Black or African American",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Native Hawaiian or Other Pacific Islander",
+          "display": "Native Hawaiian or Other Pacific Islander",
+          "target": [
+            {
+              "code": "Native Hawaiian or Other Pacific Islander",
+              "display": "Native Hawaiian or Other Pacific Islander",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Middle Eastern or North African",
+          "display": "Middle Eastern or North African",
+          "target": [
+            {
+              "code": "Middle Eastern or North African",
+              "display": "Middle Eastern or North African",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "White",
+          "display": "White",
+          "target": [
+            {
+              "code": "White",
+              "display": "White",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "reported_ethnicity",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant/reported_ethnicity",
+      "element": [
+        {
+          "code": "Hispanic or Latino",
+          "display": "Hispanic or Latino",
+          "target": [
+            {
+              "code": "Hispanic or Latino",
+              "display": "Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Not Hispanic or Latino",
+          "display": "Not Hispanic or Latino",
+          "target": [
+            {
+              "code": "Not Hispanic or Latino",
+              "display": "Not Hispanic or Latino",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "affected_status",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant/affected_status",
+      "element": [
+        {
+          "code": "Affected",
+          "display": "Affected",
+          "target": [
+            {
+              "code": "Affected",
+              "display": "Affected",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unaffected",
+          "display": "Unaffected",
+          "target": [
+            {
+              "code": "Unaffected",
+              "display": "Unaffected",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Possibly affected",
+          "display": "Possibly affected",
+          "target": [
+            {
+              "code": "Possibly affected",
+              "display": "Possibly affected",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "source": "participant",
       "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/participant",
       "element": [
@@ -1177,6 +1764,233 @@
       ]
     },
     {
+      "source": "analyte_type",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/analyte/analyte_type",
+      "element": [
+        {
+          "code": "DNA",
+          "display": "DNA",
+          "target": [
+            {
+              "code": "DNA",
+              "display": "DNA",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "RNA",
+          "display": "RNA",
+          "target": [
+            {
+              "code": "RNA",
+              "display": "RNA",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "blood plasma",
+          "display": "blood plasma",
+          "target": [
+            {
+              "code": "blood plasma",
+              "display": "blood plasma",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "frozen whole blood",
+          "display": "frozen whole blood",
+          "target": [
+            {
+              "code": "frozen whole blood",
+              "display": "frozen whole blood",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "high molecular weight DNA",
+          "display": "high molecular weight DNA",
+          "target": [
+            {
+              "code": "high molecular weight DNA",
+              "display": "high molecular weight DNA",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "urine",
+          "display": "urine",
+          "target": [
+            {
+              "code": "urine",
+              "display": "urine",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "primary_biosample",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/analyte/primary_biosample",
+      "element": [
+        {
+          "code": "UBERON:0000479",
+          "display": "UBERON:0000479",
+          "target": [
+            {
+              "code": "UBERON:0000479",
+              "display": "UBERON:0000479",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0003714",
+          "display": "UBERON:0003714",
+          "target": [
+            {
+              "code": "UBERON:0003714",
+              "display": "UBERON:0003714",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0001836",
+          "display": "UBERON:0001836",
+          "target": [
+            {
+              "code": "UBERON:0001836",
+              "display": "UBERON:0001836",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0001003",
+          "display": "UBERON:0001003",
+          "target": [
+            {
+              "code": "UBERON:0001003",
+              "display": "UBERON:0001003",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0002385",
+          "display": "UBERON:0002385",
+          "target": [
+            {
+              "code": "UBERON:0002385",
+              "display": "UBERON:0002385",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0000178",
+          "display": "UBERON:0000178",
+          "target": [
+            {
+              "code": "UBERON:0000178",
+              "display": "UBERON:0000178",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0002371",
+          "display": "UBERON:0002371",
+          "target": [
+            {
+              "code": "UBERON:0002371",
+              "display": "UBERON:0002371",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0006956",
+          "display": "UBERON:0006956",
+          "target": [
+            {
+              "code": "UBERON:0006956",
+              "display": "UBERON:0006956",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0001359",
+          "display": "UBERON:0001359",
+          "target": [
+            {
+              "code": "UBERON:0001359",
+              "display": "UBERON:0001359",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0001088",
+          "display": "UBERON:0001088",
+          "target": [
+            {
+              "code": "UBERON:0001088",
+              "display": "UBERON:0001088",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "UBERON:0019306",
+          "display": "UBERON:0019306",
+          "target": [
+            {
+              "code": "UBERON:0019306",
+              "display": "UBERON:0019306",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "tissue_affected_status",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/analyte/tissue_affected_status",
+      "element": [
+        {
+          "code": "Yes",
+          "display": "Yes",
+          "target": [
+            {
+              "code": "Yes",
+              "display": "Yes",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "No",
+          "display": "No",
+          "target": [
+            {
+              "code": "No",
+              "display": "No",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "source": "analyte",
       "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/analyte",
       "element": [
@@ -1376,6 +2190,78 @@
       ]
     },
     {
+      "source": "variant_types",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/called_variants_dna_short_read/variant_types",
+      "element": [
+        {
+          "code": "SNV",
+          "display": "SNV",
+          "target": [
+            {
+              "code": "SNV",
+              "display": "SNV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "INDEL",
+          "display": "INDEL",
+          "target": [
+            {
+              "code": "INDEL",
+              "display": "INDEL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SV",
+          "display": "SV",
+          "target": [
+            {
+              "code": "SV",
+              "display": "SV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "CNV",
+          "display": "CNV",
+          "target": [
+            {
+              "code": "CNV",
+              "display": "CNV",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "RE",
+          "display": "RE",
+          "target": [
+            {
+              "code": "RE",
+              "display": "RE",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MEI",
+          "display": "MEI",
+          "target": [
+            {
+              "code": "MEI",
+              "display": "MEI",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "source": "called_variants_dna_short_read",
       "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/called_variants_dna_short_read",
       "element": [
@@ -1452,6 +2338,45 @@
             {
               "code": "analysis_details",
               "display": "brief description of the analysis pipeline used for producing the file. perhaps a link to something like a WDL file or github repository",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "experiment_type",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/experiment_dna_short_read/experiment_type",
+      "element": [
+        {
+          "code": "targeted",
+          "display": "targeted",
+          "target": [
+            {
+              "code": "targeted",
+              "display": "targeted",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "genome",
+          "display": "genome",
+          "target": [
+            {
+              "code": "genome",
+              "display": "genome",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "exome",
+          "display": "exome",
+          "target": [
+            {
+              "code": "exome",
+              "display": "exome",
               "equivalence": "equivalent"
             }
           ]
@@ -1586,6 +2511,56 @@
       ]
     },
     {
+      "source": "consanguinity",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/family/consanguinity",
+      "element": [
+        {
+          "code": "None suspected",
+          "display": "None suspected",
+          "target": [
+            {
+              "code": "None suspected",
+              "display": "None suspected",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Suspected",
+          "display": "Suspected",
+          "target": [
+            {
+              "code": "Suspected",
+              "display": "Suspected",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Present",
+          "display": "Present",
+          "target": [
+            {
+              "code": "Present",
+              "display": "Present",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "source": "family",
       "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/family",
       "element": [
@@ -1651,6 +2626,2857 @@
             {
               "code": "family_history_detail",
               "display": "Details about family history that do not fit into structured fields. Family relationship terms should be relative to the proband.",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "presence",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/phenotype/presence",
+      "element": [
+        {
+          "code": "Present",
+          "display": "Present",
+          "target": [
+            {
+              "code": "Present",
+              "display": "Present",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Absent",
+          "display": "Absent",
+          "target": [
+            {
+              "code": "Absent",
+              "display": "Absent",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Unknown",
+          "display": "Unknown",
+          "target": [
+            {
+              "code": "Unknown",
+              "display": "Unknown",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ontology",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/phenotype/ontology",
+      "element": [
+        {
+          "code": "HPO",
+          "display": "HPO",
+          "target": [
+            {
+              "code": "HPO",
+              "display": "HPO",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO",
+          "display": "MONDO",
+          "target": [
+            {
+              "code": "MONDO",
+              "display": "MONDO",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "OMIM",
+          "display": "OMIM",
+          "target": [
+            {
+              "code": "OMIM",
+              "display": "OMIM",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ORPHANET",
+          "display": "ORPHANET",
+          "target": [
+            {
+              "code": "ORPHANET",
+              "display": "ORPHANET",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "SNOMED",
+          "display": "SNOMED",
+          "target": [
+            {
+              "code": "SNOMED",
+              "display": "SNOMED",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ICD10",
+          "display": "ICD10",
+          "target": [
+            {
+              "code": "ICD10",
+              "display": "ICD10",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "onset_age_range",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/phenotype/onset_age_range",
+      "element": [
+        {
+          "code": "HP:0003581",
+          "display": "HP:0003581",
+          "target": [
+            {
+              "code": "HP:0003581",
+              "display": "HP:0003581",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030674",
+          "display": "HP:0030674",
+          "target": [
+            {
+              "code": "HP:0030674",
+              "display": "HP:0030674",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011463",
+          "display": "HP:0011463",
+          "target": [
+            {
+              "code": "HP:0011463",
+              "display": "HP:0011463",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003577",
+          "display": "HP:0003577",
+          "target": [
+            {
+              "code": "HP:0003577",
+              "display": "HP:0003577",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025708",
+          "display": "HP:0025708",
+          "target": [
+            {
+              "code": "HP:0025708",
+              "display": "HP:0025708",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011460",
+          "display": "HP:0011460",
+          "target": [
+            {
+              "code": "HP:0011460",
+              "display": "HP:0011460",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011461",
+          "display": "HP:0011461",
+          "target": [
+            {
+              "code": "HP:0011461",
+              "display": "HP:0011461",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003593",
+          "display": "HP:0003593",
+          "target": [
+            {
+              "code": "HP:0003593",
+              "display": "HP:0003593",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025709",
+          "display": "HP:0025709",
+          "target": [
+            {
+              "code": "HP:0025709",
+              "display": "HP:0025709",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003621",
+          "display": "HP:0003621",
+          "target": [
+            {
+              "code": "HP:0003621",
+              "display": "HP:0003621",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034199",
+          "display": "HP:0034199",
+          "target": [
+            {
+              "code": "HP:0034199",
+              "display": "HP:0034199",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003584",
+          "display": "HP:0003584",
+          "target": [
+            {
+              "code": "HP:0003584",
+              "display": "HP:0003584",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025710",
+          "display": "HP:0025710",
+          "target": [
+            {
+              "code": "HP:0025710",
+              "display": "HP:0025710",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003596",
+          "display": "HP:0003596",
+          "target": [
+            {
+              "code": "HP:0003596",
+              "display": "HP:0003596",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003623",
+          "display": "HP:0003623",
+          "target": [
+            {
+              "code": "HP:0003623",
+              "display": "HP:0003623",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0410280",
+          "display": "HP:0410280",
+          "target": [
+            {
+              "code": "HP:0410280",
+              "display": "HP:0410280",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000040",
+          "display": "HP:4000040",
+          "target": [
+            {
+              "code": "HP:4000040",
+              "display": "HP:4000040",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034198",
+          "display": "HP:0034198",
+          "target": [
+            {
+              "code": "HP:0034198",
+              "display": "HP:0034198",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034197",
+          "display": "HP:0034197",
+          "target": [
+            {
+              "code": "HP:0034197",
+              "display": "HP:0034197",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011462",
+          "display": "HP:0011462",
+          "target": [
+            {
+              "code": "HP:0011462",
+              "display": "HP:0011462",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "additional_modifiers",
+      "target": "https://gregorconsortium.org/fhir/CodeSystem/data-dictionary/GREGoR_DD/phenotype/additional_modifiers",
+      "element": [
+        {
+          "code": "HP:0025292",
+          "display": "HP:0025292",
+          "target": [
+            {
+              "code": "HP:0025292",
+              "display": "HP:0025292",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011009",
+          "display": "HP:0011009",
+          "target": [
+            {
+              "code": "HP:0011009",
+              "display": "HP:0011009",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025308",
+          "display": "HP:0025308",
+          "target": [
+            {
+              "code": "HP:0025308",
+              "display": "HP:0025308",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025307",
+          "display": "HP:0025307",
+          "target": [
+            {
+              "code": "HP:0025307",
+              "display": "HP:0025307",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025306",
+          "display": "HP:0025306",
+          "target": [
+            {
+              "code": "HP:0025306",
+              "display": "HP:0025306",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003581",
+          "display": "HP:0003581",
+          "target": [
+            {
+              "code": "HP:0003581",
+              "display": "HP:0003581",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011420",
+          "display": "HP:0011420",
+          "target": [
+            {
+              "code": "HP:0011420",
+              "display": "HP:0011420",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003831",
+          "display": "HP:0003831",
+          "target": [
+            {
+              "code": "HP:0003831",
+              "display": "HP:0003831",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025285",
+          "display": "HP:0025285",
+          "target": [
+            {
+              "code": "HP:0025285",
+              "display": "HP:0025285",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032525",
+          "display": "HP:0032525",
+          "target": [
+            {
+              "code": "HP:0032525",
+              "display": "HP:0032525",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025286",
+          "display": "HP:0025286",
+          "target": [
+            {
+              "code": "HP:0025286",
+              "display": "HP:0025286",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025254",
+          "display": "HP:0025254",
+          "target": [
+            {
+              "code": "HP:0025254",
+              "display": "HP:0025254",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032526",
+          "display": "HP:0032526",
+          "target": [
+            {
+              "code": "HP:0032526",
+              "display": "HP:0032526",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025257",
+          "display": "HP:0025257",
+          "target": [
+            {
+              "code": "HP:0025257",
+              "display": "HP:0025257",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032503",
+          "display": "HP:0032503",
+          "target": [
+            {
+              "code": "HP:0032503",
+              "display": "HP:0032503",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025256",
+          "display": "HP:0025256",
+          "target": [
+            {
+              "code": "HP:0025256",
+              "display": "HP:0025256",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032522",
+          "display": "HP:0032522",
+          "target": [
+            {
+              "code": "HP:0032522",
+              "display": "HP:0032522",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025255",
+          "display": "HP:0025255",
+          "target": [
+            {
+              "code": "HP:0025255",
+              "display": "HP:0025255",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030674",
+          "display": "HP:0030674",
+          "target": [
+            {
+              "code": "HP:0030674",
+              "display": "HP:0030674",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033820",
+          "display": "HP:0033820",
+          "target": [
+            {
+              "code": "HP:0033820",
+              "display": "HP:0033820",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000052",
+          "display": "HP:4000052",
+          "target": [
+            {
+              "code": "HP:4000052",
+              "display": "HP:4000052",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025287",
+          "display": "HP:0025287",
+          "target": [
+            {
+              "code": "HP:0025287",
+              "display": "HP:0025287",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012832",
+          "display": "HP:0012832",
+          "target": [
+            {
+              "code": "HP:0012832",
+              "display": "HP:0012832",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012827",
+          "display": "HP:0012827",
+          "target": [
+            {
+              "code": "HP:0012827",
+              "display": "HP:0012827",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033815",
+          "display": "HP:0033815",
+          "target": [
+            {
+              "code": "HP:0033815",
+              "display": "HP:0033815",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030645",
+          "display": "HP:0030645",
+          "target": [
+            {
+              "code": "HP:0030645",
+              "display": "HP:0030645",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033816",
+          "display": "HP:0033816",
+          "target": [
+            {
+              "code": "HP:0033816",
+              "display": "HP:0033816",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032535",
+          "display": "HP:0032535",
+          "target": [
+            {
+              "code": "HP:0032535",
+              "display": "HP:0032535",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011463",
+          "display": "HP:0011463",
+          "target": [
+            {
+              "code": "HP:0011463",
+              "display": "HP:0011463",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011010",
+          "display": "HP:0011010",
+          "target": [
+            {
+              "code": "HP:0011010",
+              "display": "HP:0011010",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0031797",
+          "display": "HP:0031797",
+          "target": [
+            {
+              "code": "HP:0031797",
+              "display": "HP:0031797",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0045088",
+          "display": "HP:0045088",
+          "target": [
+            {
+              "code": "HP:0045088",
+              "display": "HP:0045088",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000051",
+          "display": "HP:4000051",
+          "target": [
+            {
+              "code": "HP:4000051",
+              "display": "HP:4000051",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000048",
+          "display": "HP:4000048",
+          "target": [
+            {
+              "code": "HP:4000048",
+              "display": "HP:4000048",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000047",
+          "display": "HP:4000047",
+          "target": [
+            {
+              "code": "HP:4000047",
+              "display": "HP:4000047",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003577",
+          "display": "HP:0003577",
+          "target": [
+            {
+              "code": "HP:0003577",
+              "display": "HP:0003577",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011421",
+          "display": "HP:0011421",
+          "target": [
+            {
+              "code": "HP:0011421",
+              "display": "HP:0011421",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033763",
+          "display": "HP:0033763",
+          "target": [
+            {
+              "code": "HP:0033763",
+              "display": "HP:0033763",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003819",
+          "display": "HP:0003819",
+          "target": [
+            {
+              "code": "HP:0003819",
+              "display": "HP:0003819",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0100613",
+          "display": "HP:0100613",
+          "target": [
+            {
+              "code": "HP:0100613",
+              "display": "HP:0100613",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0001522",
+          "display": "HP:0001522",
+          "target": [
+            {
+              "code": "HP:0001522",
+              "display": "HP:0001522",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033765",
+          "display": "HP:0033765",
+          "target": [
+            {
+              "code": "HP:0033765",
+              "display": "HP:0033765",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033764",
+          "display": "HP:0033764",
+          "target": [
+            {
+              "code": "HP:0033764",
+              "display": "HP:0033764",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025294",
+          "display": "HP:0025294",
+          "target": [
+            {
+              "code": "HP:0025294",
+              "display": "HP:0025294",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0020034",
+          "display": "HP:0020034",
+          "target": [
+            {
+              "code": "HP:0020034",
+              "display": "HP:0020034",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000053",
+          "display": "HP:4000053",
+          "target": [
+            {
+              "code": "HP:4000053",
+              "display": "HP:4000053",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012839",
+          "display": "HP:0012839",
+          "target": [
+            {
+              "code": "HP:0012839",
+              "display": "HP:0012839",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0045089",
+          "display": "HP:0045089",
+          "target": [
+            {
+              "code": "HP:0045089",
+              "display": "HP:0045089",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025293",
+          "display": "HP:0025293",
+          "target": [
+            {
+              "code": "HP:0025293",
+              "display": "HP:0025293",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025302",
+          "display": "HP:0025302",
+          "target": [
+            {
+              "code": "HP:0025302",
+              "display": "HP:0025302",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025282",
+          "display": "HP:0025282",
+          "target": [
+            {
+              "code": "HP:0025282",
+              "display": "HP:0025282",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025708",
+          "display": "HP:0025708",
+          "target": [
+            {
+              "code": "HP:0025708",
+              "display": "HP:0025708",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011460",
+          "display": "HP:0011460",
+          "target": [
+            {
+              "code": "HP:0011460",
+              "display": "HP:0011460",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025303",
+          "display": "HP:0025303",
+          "target": [
+            {
+              "code": "HP:0025303",
+              "display": "HP:0025303",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032365",
+          "display": "HP:0032365",
+          "target": [
+            {
+              "code": "HP:0032365",
+              "display": "HP:0032365",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032502",
+          "display": "HP:0032502",
+          "target": [
+            {
+              "code": "HP:0032502",
+              "display": "HP:0032502",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032501",
+          "display": "HP:0032501",
+          "target": [
+            {
+              "code": "HP:0032501",
+              "display": "HP:0032501",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025315",
+          "display": "HP:0025315",
+          "target": [
+            {
+              "code": "HP:0025315",
+              "display": "HP:0025315",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032534",
+          "display": "HP:0032534",
+          "target": [
+            {
+              "code": "HP:0032534",
+              "display": "HP:0032534",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032542",
+          "display": "HP:0032542",
+          "target": [
+            {
+              "code": "HP:0032542",
+              "display": "HP:0032542",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032500",
+          "display": "HP:0032500",
+          "target": [
+            {
+              "code": "HP:0032500",
+              "display": "HP:0032500",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011461",
+          "display": "HP:0011461",
+          "target": [
+            {
+              "code": "HP:0011461",
+              "display": "HP:0011461",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0031914",
+          "display": "HP:0031914",
+          "target": [
+            {
+              "code": "HP:0031914",
+              "display": "HP:0031914",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030650",
+          "display": "HP:0030650",
+          "target": [
+            {
+              "code": "HP:0030650",
+              "display": "HP:0030650",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000042",
+          "display": "HP:4000042",
+          "target": [
+            {
+              "code": "HP:4000042",
+              "display": "HP:4000042",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012837",
+          "display": "HP:0012837",
+          "target": [
+            {
+              "code": "HP:0012837",
+              "display": "HP:0012837",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000043",
+          "display": "HP:4000043",
+          "target": [
+            {
+              "code": "HP:4000043",
+              "display": "HP:4000043",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025295",
+          "display": "HP:0025295",
+          "target": [
+            {
+              "code": "HP:0025295",
+              "display": "HP:0025295",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003829",
+          "display": "HP:0003829",
+          "target": [
+            {
+              "code": "HP:0003829",
+              "display": "HP:0003829",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003593",
+          "display": "HP:0003593",
+          "target": [
+            {
+              "code": "HP:0003593",
+              "display": "HP:0003593",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003587",
+          "display": "HP:0003587",
+          "target": [
+            {
+              "code": "HP:0003587",
+              "display": "HP:0003587",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025709",
+          "display": "HP:0025709",
+          "target": [
+            {
+              "code": "HP:0025709",
+              "display": "HP:0025709",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032539",
+          "display": "HP:0032539",
+          "target": [
+            {
+              "code": "HP:0032539",
+              "display": "HP:0032539",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032540",
+          "display": "HP:0032540",
+          "target": [
+            {
+              "code": "HP:0032540",
+              "display": "HP:0032540",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003621",
+          "display": "HP:0003621",
+          "target": [
+            {
+              "code": "HP:0003621",
+              "display": "HP:0003621",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034199",
+          "display": "HP:0034199",
+          "target": [
+            {
+              "code": "HP:0034199",
+              "display": "HP:0034199",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003584",
+          "display": "HP:0003584",
+          "target": [
+            {
+              "code": "HP:0003584",
+              "display": "HP:0003584",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025710",
+          "display": "HP:0025710",
+          "target": [
+            {
+              "code": "HP:0025710",
+              "display": "HP:0025710",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025275",
+          "display": "HP:0025275",
+          "target": [
+            {
+              "code": "HP:0025275",
+              "display": "HP:0025275",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012831",
+          "display": "HP:0012831",
+          "target": [
+            {
+              "code": "HP:0012831",
+              "display": "HP:0012831",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012835",
+          "display": "HP:0012835",
+          "target": [
+            {
+              "code": "HP:0012835",
+              "display": "HP:0012835",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012838",
+          "display": "HP:0012838",
+          "target": [
+            {
+              "code": "HP:0012838",
+              "display": "HP:0012838",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025291",
+          "display": "HP:0025291",
+          "target": [
+            {
+              "code": "HP:0025291",
+              "display": "HP:0025291",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003596",
+          "display": "HP:0003596",
+          "target": [
+            {
+              "code": "HP:0003596",
+              "display": "HP:0003596",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030648",
+          "display": "HP:0030648",
+          "target": [
+            {
+              "code": "HP:0030648",
+              "display": "HP:0030648",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025279",
+          "display": "HP:0025279",
+          "target": [
+            {
+              "code": "HP:0025279",
+              "display": "HP:0025279",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012825",
+          "display": "HP:0012825",
+          "target": [
+            {
+              "code": "HP:0012825",
+              "display": "HP:0012825",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033817",
+          "display": "HP:0033817",
+          "target": [
+            {
+              "code": "HP:0033817",
+              "display": "HP:0033817",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0045090",
+          "display": "HP:0045090",
+          "target": [
+            {
+              "code": "HP:0045090",
+              "display": "HP:0045090",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0005268",
+          "display": "HP:0005268",
+          "target": [
+            {
+              "code": "HP:0005268",
+              "display": "HP:0005268",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012826",
+          "display": "HP:0012826",
+          "target": [
+            {
+              "code": "HP:0012826",
+              "display": "HP:0012826",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025296",
+          "display": "HP:0025296",
+          "target": [
+            {
+              "code": "HP:0025296",
+              "display": "HP:0025296",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0040006",
+          "display": "HP:0040006",
+          "target": [
+            {
+              "code": "HP:0040006",
+              "display": "HP:0040006",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030651",
+          "display": "HP:0030651",
+          "target": [
+            {
+              "code": "HP:0030651",
+              "display": "HP:0030651",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003811",
+          "display": "HP:0003811",
+          "target": [
+            {
+              "code": "HP:0003811",
+              "display": "HP:0003811",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003623",
+          "display": "HP:0003623",
+          "target": [
+            {
+              "code": "HP:0003623",
+              "display": "HP:0003623",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025301",
+          "display": "HP:0025301",
+          "target": [
+            {
+              "code": "HP:0025301",
+              "display": "HP:0025301",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003680",
+          "display": "HP:0003680",
+          "target": [
+            {
+              "code": "HP:0003680",
+              "display": "HP:0003680",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000046",
+          "display": "HP:4000046",
+          "target": [
+            {
+              "code": "HP:4000046",
+              "display": "HP:4000046",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003674",
+          "display": "HP:0003674",
+          "target": [
+            {
+              "code": "HP:0003674",
+              "display": "HP:0003674",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000050",
+          "display": "HP:4000050",
+          "target": [
+            {
+              "code": "HP:4000050",
+              "display": "HP:4000050",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003679",
+          "display": "HP:0003679",
+          "target": [
+            {
+              "code": "HP:0003679",
+              "display": "HP:0003679",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025280",
+          "display": "HP:0025280",
+          "target": [
+            {
+              "code": "HP:0025280",
+              "display": "HP:0025280",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030647",
+          "display": "HP:0030647",
+          "target": [
+            {
+              "code": "HP:0030647",
+              "display": "HP:0030647",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033814",
+          "display": "HP:0033814",
+          "target": [
+            {
+              "code": "HP:0033814",
+              "display": "HP:0033814",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0410280",
+          "display": "HP:0410280",
+          "target": [
+            {
+              "code": "HP:0410280",
+              "display": "HP:0410280",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030649",
+          "display": "HP:0030649",
+          "target": [
+            {
+              "code": "HP:0030649",
+              "display": "HP:0030649",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033813",
+          "display": "HP:0033813",
+          "target": [
+            {
+              "code": "HP:0033813",
+              "display": "HP:0033813",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033819",
+          "display": "HP:0033819",
+          "target": [
+            {
+              "code": "HP:0033819",
+              "display": "HP:0033819",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025304",
+          "display": "HP:0025304",
+          "target": [
+            {
+              "code": "HP:0025304",
+              "display": "HP:0025304",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0030646",
+          "display": "HP:0030646",
+          "target": [
+            {
+              "code": "HP:0030646",
+              "display": "HP:0030646",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003812",
+          "display": "HP:0003812",
+          "target": [
+            {
+              "code": "HP:0003812",
+              "display": "HP:0003812",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0031450",
+          "display": "HP:0031450",
+          "target": [
+            {
+              "code": "HP:0031450",
+              "display": "HP:0031450",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012830",
+          "display": "HP:0012830",
+          "target": [
+            {
+              "code": "HP:0012830",
+              "display": "HP:0012830",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0032544",
+          "display": "HP:0032544",
+          "target": [
+            {
+              "code": "HP:0032544",
+              "display": "HP:0032544",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034241",
+          "display": "HP:0034241",
+          "target": [
+            {
+              "code": "HP:0034241",
+              "display": "HP:0034241",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012829",
+          "display": "HP:0012829",
+          "target": [
+            {
+              "code": "HP:0012829",
+              "display": "HP:0012829",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003676",
+          "display": "HP:0003676",
+          "target": [
+            {
+              "code": "HP:0003676",
+              "display": "HP:0003676",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025297",
+          "display": "HP:0025297",
+          "target": [
+            {
+              "code": "HP:0025297",
+              "display": "HP:0025297",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012840",
+          "display": "HP:0012840",
+          "target": [
+            {
+              "code": "HP:0012840",
+              "display": "HP:0012840",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000040",
+          "display": "HP:4000040",
+          "target": [
+            {
+              "code": "HP:4000040",
+              "display": "HP:4000040",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025305",
+          "display": "HP:0025305",
+          "target": [
+            {
+              "code": "HP:0025305",
+              "display": "HP:0025305",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003678",
+          "display": "HP:0003678",
+          "target": [
+            {
+              "code": "HP:0003678",
+              "display": "HP:0003678",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0031796",
+          "display": "HP:0031796",
+          "target": [
+            {
+              "code": "HP:0031796",
+              "display": "HP:0031796",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0031375",
+          "display": "HP:0031375",
+          "target": [
+            {
+              "code": "HP:0031375",
+              "display": "HP:0031375",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033818",
+          "display": "HP:0033818",
+          "target": [
+            {
+              "code": "HP:0033818",
+              "display": "HP:0033818",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012834",
+          "display": "HP:0012834",
+          "target": [
+            {
+              "code": "HP:0012834",
+              "display": "HP:0012834",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034198",
+          "display": "HP:0034198",
+          "target": [
+            {
+              "code": "HP:0034198",
+              "display": "HP:0034198",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000049",
+          "display": "HP:4000049",
+          "target": [
+            {
+              "code": "HP:4000049",
+              "display": "HP:4000049",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033349",
+          "display": "HP:0033349",
+          "target": [
+            {
+              "code": "HP:0033349",
+              "display": "HP:0033349",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012828",
+          "display": "HP:0012828",
+          "target": [
+            {
+              "code": "HP:0012828",
+              "display": "HP:0012828",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012824",
+          "display": "HP:0012824",
+          "target": [
+            {
+              "code": "HP:0012824",
+              "display": "HP:0012824",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025281",
+          "display": "HP:0025281",
+          "target": [
+            {
+              "code": "HP:0025281",
+              "display": "HP:0025281",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025284",
+          "display": "HP:0025284",
+          "target": [
+            {
+              "code": "HP:0025284",
+              "display": "HP:0025284",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003677",
+          "display": "HP:0003677",
+          "target": [
+            {
+              "code": "HP:0003677",
+              "display": "HP:0003677",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012836",
+          "display": "HP:0012836",
+          "target": [
+            {
+              "code": "HP:0012836",
+              "display": "HP:0012836",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000045",
+          "display": "HP:4000045",
+          "target": [
+            {
+              "code": "HP:4000045",
+              "display": "HP:4000045",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0031915",
+          "display": "HP:0031915",
+          "target": [
+            {
+              "code": "HP:0031915",
+              "display": "HP:0031915",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003826",
+          "display": "HP:0003826",
+          "target": [
+            {
+              "code": "HP:0003826",
+              "display": "HP:0003826",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011011",
+          "display": "HP:0011011",
+          "target": [
+            {
+              "code": "HP:0011011",
+              "display": "HP:0011011",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011008",
+          "display": "HP:0011008",
+          "target": [
+            {
+              "code": "HP:0011008",
+              "display": "HP:0011008",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025283",
+          "display": "HP:0025283",
+          "target": [
+            {
+              "code": "HP:0025283",
+              "display": "HP:0025283",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034197",
+          "display": "HP:0034197",
+          "target": [
+            {
+              "code": "HP:0034197",
+              "display": "HP:0034197",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025153",
+          "display": "HP:0025153",
+          "target": [
+            {
+              "code": "HP:0025153",
+              "display": "HP:0025153",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:4000044",
+          "display": "HP:4000044",
+          "target": [
+            {
+              "code": "HP:4000044",
+              "display": "HP:4000044",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025204",
+          "display": "HP:0025204",
+          "target": [
+            {
+              "code": "HP:0025204",
+              "display": "HP:0025204",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033185",
+          "display": "HP:0033185",
+          "target": [
+            {
+              "code": "HP:0033185",
+              "display": "HP:0033185",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033032",
+          "display": "HP:0033032",
+          "target": [
+            {
+              "code": "HP:0033032",
+              "display": "HP:0033032",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0500261",
+          "display": "HP:0500261",
+          "target": [
+            {
+              "code": "HP:0500261",
+              "display": "HP:0500261",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025205",
+          "display": "HP:0025205",
+          "target": [
+            {
+              "code": "HP:0025205",
+              "display": "HP:0025205",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025208",
+          "display": "HP:0025208",
+          "target": [
+            {
+              "code": "HP:0025208",
+              "display": "HP:0025208",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033789",
+          "display": "HP:0033789",
+          "target": [
+            {
+              "code": "HP:0033789",
+              "display": "HP:0033789",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025206",
+          "display": "HP:0025206",
+          "target": [
+            {
+              "code": "HP:0025206",
+              "display": "HP:0025206",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025207",
+          "display": "HP:0025207",
+          "target": [
+            {
+              "code": "HP:0025207",
+              "display": "HP:0025207",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025334",
+          "display": "HP:0025334",
+          "target": [
+            {
+              "code": "HP:0025334",
+              "display": "HP:0025334",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025211",
+          "display": "HP:0025211",
+          "target": [
+            {
+              "code": "HP:0025211",
+              "display": "HP:0025211",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025227",
+          "display": "HP:0025227",
+          "target": [
+            {
+              "code": "HP:0025227",
+              "display": "HP:0025227",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025377",
+          "display": "HP:0025377",
+          "target": [
+            {
+              "code": "HP:0025377",
+              "display": "HP:0025377",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025212",
+          "display": "HP:0025212",
+          "target": [
+            {
+              "code": "HP:0025212",
+              "display": "HP:0025212",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034060",
+          "display": "HP:0034060",
+          "target": [
+            {
+              "code": "HP:0034060",
+              "display": "HP:0034060",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025215",
+          "display": "HP:0025215",
+          "target": [
+            {
+              "code": "HP:0025215",
+              "display": "HP:0025215",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033793",
+          "display": "HP:0033793",
+          "target": [
+            {
+              "code": "HP:0033793",
+              "display": "HP:0033793",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025209",
+          "display": "HP:0025209",
+          "target": [
+            {
+              "code": "HP:0025209",
+              "display": "HP:0025209",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025213",
+          "display": "HP:0025213",
+          "target": [
+            {
+              "code": "HP:0025213",
+              "display": "HP:0025213",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025210",
+          "display": "HP:0025210",
+          "target": [
+            {
+              "code": "HP:0025210",
+              "display": "HP:0025210",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0500260",
+          "display": "HP:0500260",
+          "target": [
+            {
+              "code": "HP:0500260",
+              "display": "HP:0500260",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025214",
+          "display": "HP:0025214",
+          "target": [
+            {
+              "code": "HP:0025214",
+              "display": "HP:0025214",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025216",
+          "display": "HP:0025216",
+          "target": [
+            {
+              "code": "HP:0025216",
+              "display": "HP:0025216",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025217",
+          "display": "HP:0025217",
+          "target": [
+            {
+              "code": "HP:0025217",
+              "display": "HP:0025217",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025218",
+          "display": "HP:0025218",
+          "target": [
+            {
+              "code": "HP:0025218",
+              "display": "HP:0025218",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033184",
+          "display": "HP:0033184",
+          "target": [
+            {
+              "code": "HP:0033184",
+              "display": "HP:0033184",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0031167",
+          "display": "HP:0031167",
+          "target": [
+            {
+              "code": "HP:0031167",
+              "display": "HP:0031167",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025220",
+          "display": "HP:0025220",
+          "target": [
+            {
+              "code": "HP:0025220",
+              "display": "HP:0025220",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0034195",
+          "display": "HP:0034195",
+          "target": [
+            {
+              "code": "HP:0034195",
+              "display": "HP:0034195",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0031135",
+          "display": "HP:0031135",
+          "target": [
+            {
+              "code": "HP:0031135",
+              "display": "HP:0031135",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025221",
+          "display": "HP:0025221",
+          "target": [
+            {
+              "code": "HP:0025221",
+              "display": "HP:0025221",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025222",
+          "display": "HP:0025222",
+          "target": [
+            {
+              "code": "HP:0025222",
+              "display": "HP:0025222",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025223",
+          "display": "HP:0025223",
+          "target": [
+            {
+              "code": "HP:0025223",
+              "display": "HP:0025223",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025224",
+          "display": "HP:0025224",
+          "target": [
+            {
+              "code": "HP:0025224",
+              "display": "HP:0025224",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025225",
+          "display": "HP:0025225",
+          "target": [
+            {
+              "code": "HP:0025225",
+              "display": "HP:0025225",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025226",
+          "display": "HP:0025226",
+          "target": [
+            {
+              "code": "HP:0025226",
+              "display": "HP:0025226",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025228",
+          "display": "HP:0025228",
+          "target": [
+            {
+              "code": "HP:0025228",
+              "display": "HP:0025228",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025219",
+          "display": "HP:0025219",
+          "target": [
+            {
+              "code": "HP:0025219",
+              "display": "HP:0025219",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025229",
+          "display": "HP:0025229",
+          "target": [
+            {
+              "code": "HP:0025229",
+              "display": "HP:0025229",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0033198",
+          "display": "HP:0033198",
+          "target": [
+            {
+              "code": "HP:0033198",
+              "display": "HP:0033198",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0012833",
+          "display": "HP:0012833",
+          "target": [
+            {
+              "code": "HP:0012833",
+              "display": "HP:0012833",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0025290",
+          "display": "HP:0025290",
+          "target": [
+            {
+              "code": "HP:0025290",
+              "display": "HP:0025290",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003828",
+          "display": "HP:0003828",
+          "target": [
+            {
+              "code": "HP:0003828",
+              "display": "HP:0003828",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0003682",
+          "display": "HP:0003682",
+          "target": [
+            {
+              "code": "HP:0003682",
+              "display": "HP:0003682",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0410401",
+          "display": "HP:0410401",
+          "target": [
+            {
+              "code": "HP:0410401",
+              "display": "HP:0410401",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HP:0011462",
+          "display": "HP:0011462",
+          "target": [
+            {
+              "code": "HP:0011462",
+              "display": "HP:0011462",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021125",
+          "display": "MONDO:0021125",
+          "target": [
+            {
+              "code": "MONDO:0021125",
+              "display": "MONDO:0021125",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021135",
+          "display": "MONDO:0021135",
+          "target": [
+            {
+              "code": "MONDO:0021135",
+              "display": "MONDO:0021135",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021139",
+          "display": "MONDO:0021139",
+          "target": [
+            {
+              "code": "MONDO:0021139",
+              "display": "MONDO:0021139",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021149",
+          "display": "MONDO:0021149",
+          "target": [
+            {
+              "code": "MONDO:0021149",
+              "display": "MONDO:0021149",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0045034",
+          "display": "MONDO:0045034",
+          "target": [
+            {
+              "code": "MONDO:0045034",
+              "display": "MONDO:0045034",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0045040",
+          "display": "MONDO:0045040",
+          "target": [
+            {
+              "code": "MONDO:0045040",
+              "display": "MONDO:0045040",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0100355",
+          "display": "MONDO:0100355",
+          "target": [
+            {
+              "code": "MONDO:0100355",
+              "display": "MONDO:0100355",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0700004",
+          "display": "MONDO:0700004",
+          "target": [
+            {
+              "code": "MONDO:0700004",
+              "display": "MONDO:0700004",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0100369",
+          "display": "MONDO:0100369",
+          "target": [
+            {
+              "code": "MONDO:0100369",
+              "display": "MONDO:0100369",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0700061",
+          "display": "MONDO:0700061",
+          "target": [
+            {
+              "code": "MONDO:0700061",
+              "display": "MONDO:0700061",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0024488",
+          "display": "MONDO:0024488",
+          "target": [
+            {
+              "code": "MONDO:0024488",
+              "display": "MONDO:0024488",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021126",
+          "display": "MONDO:0021126",
+          "target": [
+            {
+              "code": "MONDO:0021126",
+              "display": "MONDO:0021126",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021136",
+          "display": "MONDO:0021136",
+          "target": [
+            {
+              "code": "MONDO:0021136",
+              "display": "MONDO:0021136",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021137",
+          "display": "MONDO:0021137",
+          "target": [
+            {
+              "code": "MONDO:0021137",
+              "display": "MONDO:0021137",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021140",
+          "display": "MONDO:0021140",
+          "target": [
+            {
+              "code": "MONDO:0021140",
+              "display": "MONDO:0021140",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021141",
+          "display": "MONDO:0021141",
+          "target": [
+            {
+              "code": "MONDO:0021141",
+              "display": "MONDO:0021141",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021151",
+          "display": "MONDO:0021151",
+          "target": [
+            {
+              "code": "MONDO:0021151",
+              "display": "MONDO:0021151",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021152",
+          "display": "MONDO:0021152",
+          "target": [
+            {
+              "code": "MONDO:0021152",
+              "display": "MONDO:0021152",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0045036",
+          "display": "MONDO:0045036",
+          "target": [
+            {
+              "code": "MONDO:0045036",
+              "display": "MONDO:0045036",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0045035",
+          "display": "MONDO:0045035",
+          "target": [
+            {
+              "code": "MONDO:0045035",
+              "display": "MONDO:0045035",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0022202",
+          "display": "MONDO:0022202",
+          "target": [
+            {
+              "code": "MONDO:0022202",
+              "display": "MONDO:0022202",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0045042",
+          "display": "MONDO:0045042",
+          "target": [
+            {
+              "code": "MONDO:0045042",
+              "display": "MONDO:0045042",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0100356",
+          "display": "MONDO:0100356",
+          "target": [
+            {
+              "code": "MONDO:0100356",
+              "display": "MONDO:0100356",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0100357",
+          "display": "MONDO:0100357",
+          "target": [
+            {
+              "code": "MONDO:0100357",
+              "display": "MONDO:0100357",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0700005",
+          "display": "MONDO:0700005",
+          "target": [
+            {
+              "code": "MONDO:0700005",
+              "display": "MONDO:0700005",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0700006",
+          "display": "MONDO:0700006",
+          "target": [
+            {
+              "code": "MONDO:0700006",
+              "display": "MONDO:0700006",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0100427",
+          "display": "MONDO:0100427",
+          "target": [
+            {
+              "code": "MONDO:0100427",
+              "display": "MONDO:0100427",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0100426",
+          "display": "MONDO:0100426",
+          "target": [
+            {
+              "code": "MONDO:0100426",
+              "display": "MONDO:0100426",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0700063",
+          "display": "MONDO:0700063",
+          "target": [
+            {
+              "code": "MONDO:0700063",
+              "display": "MONDO:0700063",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0700062",
+          "display": "MONDO:0700062",
+          "target": [
+            {
+              "code": "MONDO:0700062",
+              "display": "MONDO:0700062",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0024489",
+          "display": "MONDO:0024489",
+          "target": [
+            {
+              "code": "MONDO:0024489",
+              "display": "MONDO:0024489",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021128",
+          "display": "MONDO:0021128",
+          "target": [
+            {
+              "code": "MONDO:0021128",
+              "display": "MONDO:0021128",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0021127",
+          "display": "MONDO:0021127",
+          "target": [
+            {
+              "code": "MONDO:0021127",
+              "display": "MONDO:0021127",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0024497",
+          "display": "MONDO:0024497",
+          "target": [
+            {
+              "code": "MONDO:0024497",
+              "display": "MONDO:0024497",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0024495",
+          "display": "MONDO:0024495",
+          "target": [
+            {
+              "code": "MONDO:0024495",
+              "display": "MONDO:0024495",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0024490",
+          "display": "MONDO:0024490",
+          "target": [
+            {
+              "code": "MONDO:0024490",
+              "display": "MONDO:0024490",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MONDO:0024496",
+          "display": "MONDO:0024496",
+          "target": [
+            {
+              "code": "MONDO:0024496",
+              "display": "MONDO:0024496",
               "equivalence": "equivalent"
             }
           ]

@@ -4,6 +4,6 @@ aligned_dna_short_read_set_id,identifier for experiment set,string,,
 called_variants_dna_file,name and path of the file with variant calls,string,,
 md5sum,md5 checksum for file,string,,md5sum computed prior to upload (used to verify file integrity)
 caller_software,variant calling software used including version number,string,,
-variant_types,types of variants called,string,"{'SNV': 'SNV', 'INDEL': 'INDEL', 'SV': 'SV', 'CNV': 'CNV', 'RE': 'RE', 'MEI': 'MEI'}","can add more values as the need arises
+variant_types,types of variants called,string,SNV=SNV;INDEL=INDEL;SV=SV;CNV=CNV;RE=RE;MEI=MEI,"can add more values as the need arises
 if there are two VCFs for SNV and Indels, there would be two different lines in this table; if combined in one VCF, a |-delimited entry"
 analysis_details,brief description of the analysis pipeline used for producing the file; perhaps a link to something like a WDL file or github repository,string,,

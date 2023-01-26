@@ -2,9 +2,9 @@ variable_name,description,data_type,enumerations,notes
 analyte_id,identifier for an analyte from a primary biosample source (primary key),string,,"ID is at level of analyte
 Stanford example: SubjectID-TubetypeCode-TissueCode"
 participant_id,,string,,
-analyte_type,analyte derived from the primary_biosample. The actual thing you're sticking into a machine to analyze/sequence,string,"{'DNA': 'DNA', 'RNA': 'RNA', 'blood plasma': 'blood plasma', 'frozen whole blood': 'frozen whole blood', 'high molecular weight DNA': 'high molecular weight DNA', 'urine': 'urine'}",
+analyte_type,analyte derived from the primary_biosample. The actual thing you're sticking into a machine to analyze/sequence,string,DNA=DNA;RNA=RNA;blood plasma=blood plasma;frozen whole blood=frozen whole blood;high molecular weight DNA=high molecular weight DNA;urine=urine,
 analyte_processing_details,details about how the analyte or original biosample was extracted or processed,string,,Regarding PMBC isolations from CPT tubes;  Isolations of PBMCs should be done on wet ice following the protocol.  Use only chilled cell freezing media.   Isolated PBMCs in freezing media
-primary_biosample,"Tissue type of biosample taken from the participant that the analyte was extracted or processed from (for unknown can use tissue - UBERON:0000479), e.g. skin, liver, brain",string,"{'UBERON:0000479': 'UBERON:0000479', 'UBERON:0003714': 'UBERON:0003714', 'UBERON:0001836': 'UBERON:0001836', 'UBERON:0001003': 'UBERON:0001003', 'UBERON:0002385': 'UBERON:0002385', 'UBERON:0000178': 'UBERON:0000178', 'UBERON:0002371': 'UBERON:0002371', 'UBERON:0006956': 'UBERON:0006956', 'UBERON:0001359': 'UBERON:0001359', 'UBERON:0001088': 'UBERON:0001088', 'UBERON:0019306': 'UBERON:0019306'}","Contact the GREGoR Data Standards WG to expanded the list of allowable UBERON codes. Currently allowed values are:
+primary_biosample,"Tissue type of biosample taken from the participant that the analyte was extracted or processed from (for unknown can use tissue - UBERON:0000479), e.g. skin, liver, brain",string,UBERON:0000479=UBERON:0000479;UBERON:0003714=UBERON:0003714;UBERON:0001836=UBERON:0001836;UBERON:0001003=UBERON:0001003;UBERON:0002385=UBERON:0002385;UBERON:0000178=UBERON:0000178;UBERON:0002371=UBERON:0002371;UBERON:0006956=UBERON:0006956;UBERON:0001359=UBERON:0001359;UBERON:0001088=UBERON:0001088;UBERON:0019306=UBERON:0019306,"Contact the GREGoR Data Standards WG to expanded the list of allowable UBERON codes. Currently allowed values are:
 UBERON:0000479 (tissue) 
 UBERON:0003714 (neural tissue) 
 UBERON:0001836 (saliva) 
@@ -18,7 +18,7 @@ UBERON:0001088 (urine)
 UBERON:0019306 (nose epithelium)"
 primary_biosample_id,Optional ID for the biosample; allows for linking of multiple analytes extracted or processed from the same biosample,string,,
 primary_biosample_details,Free text to capture information not in structured fields,string,,
-tissue_affected_status,"If applicable to disease (suspected mosaic), is the tissue from an affected source or an unaffected source?",string,"{'Yes': 'Yes', 'No': 'No'}",
+tissue_affected_status,"If applicable to disease (suspected mosaic), is the tissue from an affected source or an unaffected source?",string,Yes=Yes;No=No,
 age_at_collection,age or participant in years at biosample collection,number,,ages >89 are considered PHI.
 participant_drugs_intake,"The list of drugs patient is on, at the time of sample collection. This information is helpful during analysis of metabolomics and immune asssays. Free Text",string,,this is relevant when analyzing metabolomics data
 participant_special_diet,"If the patient was fasting, when the sample was collected. this is relevant when analyzing metabolomics data. Free Text",string,,
