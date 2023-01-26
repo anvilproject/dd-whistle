@@ -874,6 +874,278 @@
       ]
     },
     {
+      "source": "trait_type",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/analysis/trait_type",
+      "element": [
+        {
+          "code": "quantitative",
+          "display": "quantitative",
+          "target": [
+            {
+              "code": "quantitative",
+              "display": "quantitative",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "binary",
+          "display": "binary",
+          "target": [
+            {
+              "code": "binary",
+              "display": "binary",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "categorical",
+          "display": "categorical",
+          "target": [
+            {
+              "code": "categorical",
+              "display": "categorical",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "ordinal",
+          "display": "ordinal",
+          "target": [
+            {
+              "code": "ordinal",
+              "display": "ordinal",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "time_to_event",
+          "display": "time_to_event",
+          "target": [
+            {
+              "code": "time_to_event",
+              "display": "time_to_event",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "count",
+          "display": "count",
+          "target": [
+            {
+              "code": "count",
+              "display": "count",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "reference_assembly",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/analysis/reference_assembly",
+      "element": [
+        {
+          "code": "GRCh38",
+          "display": "GRCh38",
+          "target": [
+            {
+              "code": "GRCh38",
+              "display": "GRCh38",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "GRCh37",
+          "display": "GRCh37",
+          "target": [
+            {
+              "code": "GRCh37",
+              "display": "GRCh37",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "NCBI36",
+          "display": "NCBI36",
+          "target": [
+            {
+              "code": "NCBI36",
+              "display": "NCBI36",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "NCBI35",
+          "display": "NCBI35",
+          "target": [
+            {
+              "code": "NCBI35",
+              "display": "NCBI35",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "NCBI34",
+          "display": "NCBI34",
+          "target": [
+            {
+              "code": "NCBI34",
+              "display": "NCBI34",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "genotyping_technology",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/analysis/genotyping_technology",
+      "element": [
+        {
+          "code": "genome-wide array",
+          "display": "genome-wide array",
+          "target": [
+            {
+              "code": "genome-wide array",
+              "display": "genome-wide array",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "WGS",
+          "display": "WGS",
+          "target": [
+            {
+              "code": "WGS",
+              "display": "WGS",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "exome array",
+          "display": "exome array",
+          "target": [
+            {
+              "code": "exome array",
+              "display": "exome array",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "WES",
+          "display": "WES",
+          "target": [
+            {
+              "code": "WES",
+              "display": "WES",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "other array",
+          "display": "other array",
+          "target": [
+            {
+              "code": "other array",
+              "display": "other array",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "is_imputed",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/analysis/is_imputed",
+      "element": [
+        {
+          "code": "TRUE",
+          "display": "TRUE",
+          "target": [
+            {
+              "code": "TRUE",
+              "display": "TRUE",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "FALSE",
+          "display": "FALSE",
+          "target": [
+            {
+              "code": "FALSE",
+              "display": "FALSE",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "imputation_reference_panel",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/analysis/imputation_reference_panel",
+      "element": [
+        {
+          "code": "1000 Genomes",
+          "display": "1000 Genomes",
+          "target": [
+            {
+              "code": "1000 Genomes",
+              "display": "1000 Genomes",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "HRC",
+          "display": "HRC",
+          "target": [
+            {
+              "code": "HRC",
+              "display": "HRC",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "TOPMed",
+          "display": "TOPMed",
+          "target": [
+            {
+              "code": "TOPMed",
+              "display": "TOPMed",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Other",
+          "display": "Other",
+          "target": [
+            {
+              "code": "Other",
+              "display": "Other",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "source": "analysis",
       "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/analysis",
       "element": [
@@ -1467,6 +1739,337 @@
             {
               "code": "analysis_software",
               "display": "The name of the software used for the GWAS",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "file_type",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/gsr_file/file_type",
+      "element": [
+        {
+          "code": "data",
+          "display": "data",
+          "target": [
+            {
+              "code": "data",
+              "display": "data",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "data dictionary",
+          "display": "data dictionary",
+          "target": [
+            {
+              "code": "data dictionary",
+              "display": "data dictionary",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "README",
+          "display": "README",
+          "target": [
+            {
+              "code": "README",
+              "display": "README",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "chromosome",
+      "target": "https://primedconsortium.org/fhir/CodeSystem/data-dictionary/PRIMED_DD/gsr_file/chromosome",
+      "element": [
+        {
+          "code": "ALL",
+          "display": "ALL",
+          "target": [
+            {
+              "code": "ALL",
+              "display": "ALL",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "1",
+          "display": "1",
+          "target": [
+            {
+              "code": "1",
+              "display": "1",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "display": "2",
+          "target": [
+            {
+              "code": "2",
+              "display": "2",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "display": "3",
+          "target": [
+            {
+              "code": "3",
+              "display": "3",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "display": "4",
+          "target": [
+            {
+              "code": "4",
+              "display": "4",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "display": "5",
+          "target": [
+            {
+              "code": "5",
+              "display": "5",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "display": "6",
+          "target": [
+            {
+              "code": "6",
+              "display": "6",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "display": "7",
+          "target": [
+            {
+              "code": "7",
+              "display": "7",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "display": "8",
+          "target": [
+            {
+              "code": "8",
+              "display": "8",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "9",
+          "display": "9",
+          "target": [
+            {
+              "code": "9",
+              "display": "9",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "10",
+          "display": "10",
+          "target": [
+            {
+              "code": "10",
+              "display": "10",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "11",
+          "display": "11",
+          "target": [
+            {
+              "code": "11",
+              "display": "11",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "12",
+          "display": "12",
+          "target": [
+            {
+              "code": "12",
+              "display": "12",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "13",
+          "display": "13",
+          "target": [
+            {
+              "code": "13",
+              "display": "13",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "14",
+          "display": "14",
+          "target": [
+            {
+              "code": "14",
+              "display": "14",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "15",
+          "display": "15",
+          "target": [
+            {
+              "code": "15",
+              "display": "15",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "16",
+          "display": "16",
+          "target": [
+            {
+              "code": "16",
+              "display": "16",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "17",
+          "display": "17",
+          "target": [
+            {
+              "code": "17",
+              "display": "17",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "18",
+          "display": "18",
+          "target": [
+            {
+              "code": "18",
+              "display": "18",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "19",
+          "display": "19",
+          "target": [
+            {
+              "code": "19",
+              "display": "19",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "20",
+          "display": "20",
+          "target": [
+            {
+              "code": "20",
+              "display": "20",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "21",
+          "display": "21",
+          "target": [
+            {
+              "code": "21",
+              "display": "21",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "22",
+          "display": "22",
+          "target": [
+            {
+              "code": "22",
+              "display": "22",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "X",
+          "display": "X",
+          "target": [
+            {
+              "code": "X",
+              "display": "X",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Y",
+          "display": "Y",
+          "target": [
+            {
+              "code": "Y",
+              "display": "Y",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "MT",
+          "display": "MT",
+          "target": [
+            {
+              "code": "MT",
+              "display": "MT",
               "equivalence": "equivalent"
             }
           ]
