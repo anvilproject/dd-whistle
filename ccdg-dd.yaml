@@ -1,0 +1,64 @@
+study_id: CCDG_DD
+study_accession:  
+study_title: Centers for Common Disease Genomics
+study_desc: The Centers for Common Disease Genomics (CCDG) are a collaborative large-scale genome sequencing effort to comprehensively identify rare risk and protective variants contributing to multiple common disease phenotypes.
+url: https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program/Centers-for-Common-Disease-Genomics
+identifier_prefix: https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program/Centers-for-Common-Disease-Genomics/fhir
+output_filename: ccdg
+id_colname: subject_id
+whistle_src: _cmg.wstl
+study_sponsor:
+  id: nhgri
+  name: National Human Genome Research Institute (NHGRI)
+code_harmonization_dir: harmony/ccdg
+require_official: True
+curies:
+  http://purl.obolibrary.org/obo/hp.owl: HP
+  http://purl.obolibrary.org/obo/mondo.owl: MONDO
+projector_lib: projector
+env:
+  local: dev
+  dev: dev
+  qa: google
+  prod: google
+dataset:
+  subject: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/ccdg/subject.csv
+      colnames:
+        variable_name: Field
+        description: Data element description
+        data_type: Field type
+        enumerations: Enumerations
+    code_harmonization: harmony/ccdg/data-harmony.csv
+  sample: 
+    filename: None
+    data_dictionary: 
+      filename:  data/dd/ccdg/sample.csv
+      colnames:
+        variable_name: Field
+        description: Data element description
+        data_type: Field type
+        enumerations: Enumerations
+    code_harmonization: harmony/ccdg/data-harmony.csv
+  sequencing: 
+    filename: None
+    embed:
+      dataset: sample
+      colname: sample_id
+    data_dictionary: 
+      filename:  data/dd/ccdg/sequencing.csv
+      colnames:
+        variable_name: Field
+        description: Data element description
+        data_type: Field type
+        enumerations: Enumerations
+    code_harmonization: harmony/ccdg/data-harmony.csv
+active_tables:
+  ddmeta: true
+resource_list:
+  - ActivityDefinition
+  - CodeSystem
+  - ObservationDefinition
+  - ValueSet
