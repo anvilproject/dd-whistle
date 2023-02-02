@@ -1,0 +1,29 @@
+Field,Data element description,Field type,Enumerations,Multi-value delimiter,Required field,"Needed for? (e.g. QC, Provenance, and/or Cohort building?)",Examples
+sample_id,Identifier for sample (this should be the same sample_id used to link the sample information to the subject information in the provided phenotype data),identifier,N/A,,,all 3,"""114443"" ""Sample_20"""
+submitter_id,Identifier for sequencing center,string,N/A,,,all 3,"""Baylor"" ""Broad"" ""NYGC"" and ""WashU"""
+seq_filename,filename containing the sequence information,string,N/A,,,all 3,"A00018-5.rh.hgv.cram"" or ""NWD106012.bam"""
+analyte_type,"Sequence data source (DNA, RNA, etc)",enumeration,"DNA
+RNA",,,"QC, cohort-building",DNA
+sequencing_assay,Type of sequencing assay performed,enumeration,"WGS
+WES
+RNASeq
+MEGA
+(add more as needed)",,,"QC, cohort-building",WGS
+library_prep_kit_method,Library prep kit used,string,N/A,"try to find a way to capture PCR free, PCR plus",,"cohort-building, provenance","""cohort_x_library_prep"" Kappa Hyper PCR plus, Kappa Hyper PCR free"
+exome_capture_platform,Exome capture platform (if applicable),string,N/A,,,cohort-building,"""sureselect"""
+capture_region_bed_file,Capture region bed file (if applicable),string,N/A,,,"QC, cohort-building",b38.exome.bed
+reference_genome_build,Reference genome used,string,N/A,,,"QC, cohort-building","""GRChb38H"""
+alignment_method,Alignment method used,string,N/A,,,cohort-building,"""cohort_x_bwa_mem"""
+data_processing_pipeline,Data processing pipeline used,string,N/A,,,cohort-building,"""cohort_x_dataproc"""
+functional_equivalence_standard,Does this meet the functional equivalence standard?,string,"Yes, No",,,cohort-building,"Given that we're likely to have different versions of FE in the future, this should be a string with the value being the version ID (or ""NO"" if not FE)."
+date_data_generation,Date of data generation (First sequencing date),date,N/A,,,"cohort-building, provenance","""YYYYMMDD"" or ""YYYYMM"""
+sequencer_id,machine identifier for sequencer,string,N/A,|,No,provenance,"""ill_008"""
+tissue_source (or body_site like dbGaP),tissue from which DNA (or RNA) extracted,string,,,,cohort-building,"whole blood, frozen tissue, cell line"
+sequencing_platform,Sequencing platform used,string,,,,"cohort-building, provenance","""Illumina NovoSeq 6000"""
+target_insert_size,targeted insert size for DNA fragments,integer,N/A,,,"cohort-building, provenance",500
+target_depth,targeted sequencing depth,integer,N/A,"since we're calculating this, we don't need to require this",,cohort-building,20
+sequencing_strategy ,paired vs single end (or mate pair),string,N/A,,,cohort-building,"paired end, single end"
+read_length,sequenced read length (bp),integer,N/A,,,cohort-building,100
+number_of_independent_libraries,number of independent libraries sequenced,integer,N/A,,,cohort-building,typically 1
+sex,"Sex of sample subject (Note: this field is also required for the phenotype information, but is requested in sequence metadata for QC purposes)",enumeration,"Male
+Female",,,QC,Female

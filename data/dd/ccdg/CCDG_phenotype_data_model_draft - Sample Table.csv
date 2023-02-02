@@ -1,0 +1,11 @@
+,Field,Data element description,Field type,Field Priority,Enumerations,Multi-value delimiter,Examples
+TRUE,subject_id,Subject/Participant Identifier within project ,identifier,N/A,,,"""Subject_1"" ""subj89054"" etc."
+TRUE,sample_id,Identifier for sample,identifier,1,N/A,,"""114443"" ""Sample_20"""
+TRUE,dbgap_sample_id,Sample identifier used in dbGaP (if previously submitted),identifier,1 (if present),N/A,,
+FALSE,sample_provider,Site of sample provider,string,1,N/A,,"""Vanderbilt University"""
+FALSE,sample_source,Tissue type of sample,enumeration,2,"UBERON concepts such as:
+neural tissue - UBERON:0003714
+saliva - UBERON:0001836
+skin epidermis - UBERON:0001003
+muscle tissue - UBERON:0002385
+whole blood - UBERON:0000178",,"""UBERON:0000178"""
