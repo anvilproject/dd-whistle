@@ -23,58 +23,59 @@ env:
   prod: google
 dataset:
   subject: 
-    filename: data/cmg/subject.csv
+    filename: None
     data_dictionary: 
       filename:  data/cmg/dd/subject.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: variable_type
-        values: enumerated_values
+        variable_name: varname
+        description: description
+        data_type: variable_type
+        enumerations: enumerated_values
     code_harmonization: harmony/cmg/data-harmony.csv
   sample: 
-    filename: data/cmg/sample.csv
+    filename: None
     data_dictionary: 
       filename:  data/cmg/dd/sample.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: variable_type
-        values: enumerated_values
+        variable_name: varname
+        data_type: variable_type
+        enumerations: enumerated_values
     code_harmonization: harmony/cmg/data-harmony.csv
   sequencing: 
-    filename: data/cmg/sequencing.csv
+    filename: None
     embed:
       dataset: sample
       colname: sample_id
     data_dictionary: 
       filename:  data/cmg/dd/sequencing.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: variable_type
-        values: enumerated_values
+        variable_name: varname
+        data_type: variable_type
+        enumerations: enumerated_values
     code_harmonization: harmony/cmg/data-harmony.csv
   family:
-    filename: data/cmg/family.csv
+    filename: None
     data_dictionary: 
       filename:  data/cmg/dd/family.csv
       key_columns: family_id
       colnames:
-        varname: variable_name
-        desc: description
-        type: variable_type
-        values: enumerated_values
+        variable_name: varname
+        data_type: variable_type
+        enumerations: enumerated_values
     code_harmonization: harmony/cmg/data-harmony.csv
   discovery:
-    filename: data/cmg/discovery.csv
+    filename: None
     data_dictionary: 
       filename:  data/cmg/dd/discovery.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: variable_type
-        values: enumerated_values
+        variable_name: varname
+        data_type: variable_type
+        enumerations: enumerated_values
     code_harmonization: harmony/cmg/data-harmony.csv
 active_tables:
-  ALL: true
+  ddmeta: true
+resource_list:
+  - ActivityDefinition
+  - CodeSystem
+  - ObservationDefinition
+  - ValueSet
