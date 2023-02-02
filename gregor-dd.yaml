@@ -27,50 +27,50 @@ dataset:
     data_dictionary: 
       filename:  data/dd/gregor_data_model/participant.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: data_type
-        values: enumerations
+        variable_name: varname
+        description: desc
+        data_type: type
+        enumerations: values
     code_harmonization: harmony/gregor/data-harmony.csv
   analyte: 
     filename: None
     data_dictionary: 
       filename:  data/dd/gregor_data_model/analyte.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: data_type
-        values: enumerations
+        variable_name: varname
+        description: desc
+        data_type: type
+        enumerations: values
     code_harmonization: harmony/gregor/data-harmony.csv
   aligned_dna_short_read_set: 
     filename: None
     data_dictionary: 
       filename:  data/dd/gregor_data_model/aligned_dna_short_read_set.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: data_type
-        values: enumerations
+        variable_name: varname
+        description: desc
+        data_type: type
+        enumerations: values
     code_harmonization: harmony/gregor/data-harmony.csv
   called_variants_dna_short_read: 
     filename: None
     data_dictionary: 
       filename:  data/dd/gregor_data_model/called_variants_dna_short_read.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: data_type
-        values: enumerations
+        variable_name: varname
+        description: desc
+        data_type: type
+        enumerations: values
     code_harmonization: harmony/gregor/data-harmony.csv
   experiment_dna_short_read: 
     filename: None
     data_dictionary: 
       filename:  data/dd/gregor_data_model/experiment_dna_short_read.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: data_type
-        values: enumerations
+        variable_name: varname
+        description: desc
+        data_type: type
+        enumerations: values
     code_harmonization: harmony/gregor/data-harmony.csv
   family:
     filename: None
@@ -78,20 +78,20 @@ dataset:
       filename:  data/dd/gregor_data_model/family.csv
       key_columns: family_id
       colnames:
-        varname: variable_name
-        desc: description
-        type: data_type
-        values: enumerations
+        variable_name: varname
+        description: desc
+        data_type: type
+        enumerations: values
     code_harmonization: harmony/gregor/data-harmony.csv
   phenotype:
     filename: None
     data_dictionary: 
       filename:  data/dd/gregor_data_model/phenotype.csv
       colnames:
-        varname: variable_name
-        desc: description
-        type: data_type
-        values: enumerations
+        variable_name: varname
+        description: desc
+        data_type: type
+        enumerations: values
     code_harmonization: harmony/gregor/data-harmony.csv
 active_tables:
   ALL: true
